@@ -6,3 +6,8 @@
 2 - Ajustando as dimensões da room e view porte da room
 	2.1 - Criando uma viewporte e camera para o jogo - ok
 	2.2 - Ajustando as dimensões para a view ser grande e a vienwporte menor - OK
+	
+3 - Shooter
+	3.1 - Atirando as sprites do tiro do player - OK
+	3.2 - Criando o Objeto do tiro do player - OK
+	3.3 - Fazer o tiro ir para cima
