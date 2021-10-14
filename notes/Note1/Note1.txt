@@ -22,6 +22,10 @@
 	4.3 - Fazer ele ir para baixo - OK
 	
 5 - Fazendo o inimigo 01 atirar
-	5.1 - importando a Sprite do tiro - OK
-	5.2 - criar o objeto do tiro - OK
-	5.3 - fazendo o tiro ir para baixo - OK
+	5.1 - Importando a Sprite do tiro - OK
+	5.2 - Criar o objeto do tiro - OK
+	5.3 - Fazendo o tiro ir para baixo - OK
+	5.4 - Atirando de fato -  OK
+	5.5 - FAzendo efeito no tiro - OK
+	
+(CRIAÇÃO DE METODOS)
