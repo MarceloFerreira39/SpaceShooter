@@ -1,0 +1,4 @@
+1 - Moveimentação do player 
+	1.1 Movimentar o player para esquerda e para direita - OK
+	1.2 Movimentar o player para cima e para baixo - OK
+	1.3 Limitar o player a tela -
