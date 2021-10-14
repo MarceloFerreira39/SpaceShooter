@@ -1,7 +1,6 @@
 1 - Moveimentação do player
 	1.1 - Criaando o player (importando a sprite e craindo o obj_player)
-	1.2 - Movimentar o player para esquerda e para direita - OK
-	1.3 - Movimentar o player para cima e para baixo - OK
+	1.2 - Movimentar o player com WASD - OK
 	1.4 - Limitar o player a tela -
 	
 2 - Ajustando as dimensões da room e view porte da room

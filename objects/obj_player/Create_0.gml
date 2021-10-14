@@ -1,6 +1,6 @@
-/// @description Velocidade
+/// @description Iniciando Variaveis
 // You can write your code in this editor
 
-speed = 0;
+velocidade = 5;
 
 
