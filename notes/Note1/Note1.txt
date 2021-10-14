@@ -32,5 +32,7 @@
 
 6 - Colisão de tiro
 	6.1 - Fazer o tiro do player acertar o inimigo e se Destruir - OK
-	6.2 - Criar o impacto do tiro do player -
+	6.2 - Criar o impacto do tiro do player - OK
+	6.3 - Fazer o impacto do tiro desaparecer -
+	6.4 - Fazer o impacto do tiro não aparecer quando sair da room
 	
