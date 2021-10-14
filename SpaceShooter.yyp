@@ -1,8 +1,8 @@
 {
   "resources": [
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
-    {"id":{"name":"obj_001","path":"objects/obj_001/obj_001.yy",},"order":0,},
-    {"id":{"name":"spd_001","path":"sprites/spd_001/spd_001.yy",},"order":0,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spd_player","path":"sprites/spd_player/spd_player.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

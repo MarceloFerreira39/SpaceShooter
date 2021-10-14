@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spd_001",
-    "path": "sprites/spd_001/spd_001.yy",
+    "name": "spd_player",
+    "path": "sprites/spd_player/spd_player.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_001",
+  "name": "obj_player",
   "tags": [],
   "resourceType": "GMObject",
 }
