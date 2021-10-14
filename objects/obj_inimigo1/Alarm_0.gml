@@ -2,9 +2,7 @@
 // You can write your code in this editor
 //Criando o tiro 
 
-//Checar se o inimigo ja esta na janela para atirar
-
-atirando();
+instance_create_layer(x, y, "Tiros", obj_inimigo_tiro1);
 
 //reiniciando o alarme
 
