@@ -11,8 +11,7 @@ right =(keyboard_check(ord("D")));
 up = (keyboard_check(ord("W")));
 //DOWN
 down = (keyboard_check(ord("S")));
-
-x -= left;
-x += right;
-y -= up;
-y += down;
+//Movendo o Y com base no resultado da conta , para saber a direção de Y depois multiplicar o resultado
+y += (down - up) * velocidade;
+//Movendo o X com base no resultado da conta , para saber a direção de X depois multiplicar o resultado
+x += (right - left) * velocidade;
