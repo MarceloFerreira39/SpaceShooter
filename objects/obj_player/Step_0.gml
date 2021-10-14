@@ -21,6 +21,7 @@ x += (right - left) * velocidade;
 if(fire)
 {
 	//Criando objeto tiro!
-	var inst = instance_create_depth(x, y, -20, obj_player_tiro01);
+	instance_create_layer(x, y - sprite_height/3 , "Tiros", obj_player_tiro01);
 	
 }
+

@@ -12,3 +12,6 @@
 	3.2 - Criando o Objeto do tiro do player - OK
 	3.3 - Fazer o tiro ir para cima - OK
 	3.4 - Fazendo o jogador atirar ao apertar espaço - OK
+	3.5 - Dando efeito para o tiro - OK
+		3.5.1 - fazendo ele nascer grande e depois ficar pequeno - OK
+	3.6 - Destruir o tiro quando sair da tela -
