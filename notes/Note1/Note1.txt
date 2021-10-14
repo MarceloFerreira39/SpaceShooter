@@ -28,4 +28,9 @@
 	5.4 - Atirando de fato -  OK
 	5.5 - FAzendo efeito no tiro - OK
 	
-(CRIAÇÃO DE METODOS)
+(CRIAÇÃO DE METODOS) - ok
+
+6 - Colisão de tiro
+	6.1 - Fazer o tiro do player acertar o inimigo e se Destruir - OK
+	6.2 - Criar o impacto do tiro do player -
+	
