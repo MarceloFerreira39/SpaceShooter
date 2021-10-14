@@ -14,4 +14,14 @@
 	3.4 - Fazendo o jogador atirar ao apertar espaço - OK
 	3.5 - Dando efeito para o tiro - OK
 		3.5.1 - fazendo ele nascer grande e depois ficar pequeno - OK
-	3.6 - Destruir o tiro quando sair da tela -
+	3.6 - Destruir o tiro quando sair da tela - OK
+	
+4 - Inimigo 01
+	4.1 - Impórtando a Sprites - OK
+	4.2 - Criando o Objeto - OK
+	4.3 - Fazer ele ir para baixo - OK
+	
+5 - Fazendo o inimigo 01 atirar
+	5.1 - importando a Sprite do tiro - OK
+	5.2 - criar o objeto do tiro - OK
+	5.3 - fazendo o tiro ir para baixo - OK
