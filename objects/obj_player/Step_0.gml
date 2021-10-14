@@ -1,25 +1,18 @@
 /// @description Movimentendo o player AWSD
+//Quando Usar o ord ... a letra é maiuscula se não não funciona.
 
+
+var up, down, left, right
 //LEFT
-if(keyboard_check(ord("A")))
-{
-	x -= velocidade;
-}
-
+left = (keyboard_check(ord("A")));
 //RIGHT
-if(keyboard_check(ord("D")))
-{
-	x += velocidade;
-}
-
+right =(keyboard_check(ord("D")));
 //UP
-if(keyboard_check(ord("W")))
-{
-	y -= velocidade;
-}
-
+up = (keyboard_check(ord("W")));
 //DOWN
-if(keyboard_check(ord("S")))
-{
-	y += velocidade;
-}
+down = (keyboard_check(ord("S")));
+
+x -= left;
+x += right;
+y -= up;
+y += down;
