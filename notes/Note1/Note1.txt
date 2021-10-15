@@ -30,4 +30,6 @@
 
 6 - Fazendo o tiro do player acertar o inimigo 
 	6.1 - Se destruindo ao acertar o inimigo - OK
-	6.2 - Criar o impacto do tiro do Player -
+	6.2 - Criar o impacto do tiro do Player - OK
+	6.3 - FAzer o impacto do tiro desaparecer no final da animação -
+	6.4 - Corrigir o tiro quando sai da room (desfazer impacto) -
