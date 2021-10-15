@@ -26,4 +26,8 @@
 	5.2 - criar o objeto do tiro - OK
 	5.3 - fazendo o tiro ir para baixo - OK
 	
-(criação de metodos)
+(criação de metodos) - OK
+
+6 - Fazendo o tiro do player acertar o inimigo 
+	6.1 - Se destruindo ao acertar o inimigo - OK
+	6.2 - Criar o impacto do tiro do Player -
