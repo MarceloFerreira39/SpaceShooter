@@ -28,7 +28,7 @@
 	
 (criação de metodos) - OK
 
-6 - Fazendo o tiro do player acertar o inimigo 
+6 - Fazendo o tiro do player acertar o inimigo - OK
 	6.1 - Se destruindo ao acertar o inimigo - OK
 	6.2 - Criar o impacto do tiro do Player - OK
 	6.3 - FAzer o impacto do tiro desaparecer no final da animação - OK
@@ -46,4 +46,21 @@
 		8.2.3 - Fazer a exlposão se destruir ao final da animação - OK
 		
 9 - Pequenos ajustes parte 1
-	9.1 - Fazendo os inimigos ser destruido ao sair da tela -
+	9.1 - Fazendo os inimigos ser destruido ao sair da tela - OK
+	9.2 - Deixando nosso background - OK
+	9.3 - Deixando nosso tiro mais bonito - OK
+		9.3.1 - Criar a sprite com brilho - OK
+		9.3.2 - Criar Draw event - OK
+		9.3.3 - Se desenhar - OK
+		9.3.4 - Desenhar o Brilho - OK
+		9.3.5 - Alterar como a GPU processa a mistura de imagens - OK
+		9.3.7 - Criar a variavel cores - OK
+		9.3.7 - Usar o lerp para diminuir o tamanho -OK
+	9.4 - deixando as exploso~es mais bonitas - 
+		9.4.1 - Criar o Draw evente
+		9.4.2 - Se Desenhar 
+		9.4.3 - ME desenhar um pouco maior
+		9.4.4 - Alterar como a GPU processa a mistura de Imagem 
+	
+10 - Criando o background - ok
+	10.1
