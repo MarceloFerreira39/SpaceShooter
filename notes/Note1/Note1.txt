@@ -25,3 +25,5 @@
 	5.1 - importando a Sprite do tiro - OK
 	5.2 - criar o objeto do tiro - OK
 	5.3 - fazendo o tiro ir para baixo - OK
+	
+(criação de metodos)

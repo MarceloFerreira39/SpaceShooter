@@ -1,8 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-//Criando o tiro 
+//Criando o tiro se eu já estou paparecendo na tela 
 
-instance_create_layer(x, y, "Tiros", obj_inimigo_tiro1);
+if(y >= 0)
+{
+	instance_create_layer(x -3, y, "Tiros", obj_inimigo_tiro1);
+}
+
+
 
 //reiniciando o alarme
 
