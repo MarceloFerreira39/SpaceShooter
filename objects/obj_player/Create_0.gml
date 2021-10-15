@@ -10,7 +10,7 @@ atirando = function()
 	if(fire)
 	{
 		//Criando objeto tiro!
-		instance_create_layer(x, y - sprite_height/3 , "Tiros", obj_player_tiro01);
+		instance_create_layer(x, y  - sprite_height/3 , "Tiros", obj_player_tiro01);
 	
 	}
 

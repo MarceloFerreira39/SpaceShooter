@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_inimigo1",
-    "path": "sprites/spr_inimigo1/spr_inimigo1.yy",
+    "name": "spr_inimigo_explosao",
+    "path": "sprites/spr_inimigo_explosao/spr_inimigo_explosao.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Enemy.yy",
+    "name": "Etc",
+    "path": "folders/Objects/Etc.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_inimigo1",
+  "name": "Obj_inimigo_explosao",
   "tags": [],
   "resourceType": "GMObject",
 }

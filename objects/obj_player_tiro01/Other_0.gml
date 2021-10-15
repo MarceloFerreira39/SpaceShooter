@@ -1,3 +1,6 @@
 /// @description Destruindo o tiro
 
-instance_destroy();
+instance_destroy(obj_impacto, false);
+
+
+
