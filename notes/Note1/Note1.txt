@@ -57,10 +57,11 @@
 		9.3.7 - Criar a variavel cores - OK
 		9.3.7 - Usar o lerp para diminuir o tamanho -OK
 	9.4 - deixando as exploso~es mais bonitas - 
-		9.4.1 - Criar o Draw evente
-		9.4.2 - Se Desenhar 
-		9.4.3 - ME desenhar um pouco maior
-		9.4.4 - Alterar como a GPU processa a mistura de Imagem 
+		9.4.1 - Criar o Draw evente - OK
+		9.4.2 - Se Desenhar - OK
+		9.4.3 - ME desenhar um pouco maior - OK
+		9.4.4 - Alterar como a GPU processa a mistura de Imagem - OK
+		9.4.5 - Criar a variavel Cores - OK
 	
 10 - Criando o background - ok
 	10.1

@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_bkg","path":"sprites/spr_bkg/spr_bkg.yy",},"order":2,},
-    {"id":{"name":"spr_brilho_inimigo1","path":"sprites/spr_brilho_inimigo1/spr_brilho_inimigo1.yy",},"order":9,},
+    {"id":{"name":"spr_brilho_inimigo1","path":"sprites/spr_brilho_inimigo1/spr_brilho_inimigo1.yy",},"order":6,},
     {"id":{"name":"spr_player_tiro01","path":"sprites/spr_player_tiro01/spr_player_tiro01.yy",},"order":1,},
     {"id":{"name":"bkp_extra3","path":"sprites/bkp_extra3/bkp_extra3.yy",},"order":4,},
     {"id":{"name":"Obj_inimigo_explosao","path":"objects/Obj_inimigo_explosao/Obj_inimigo_explosao.yy",},"order":1,},
@@ -12,7 +12,7 @@
     {"id":{"name":"obj_inimigo_tiro1","path":"objects/obj_inimigo_tiro1/obj_inimigo_tiro1.yy",},"order":0,},
     {"id":{"name":"obj_player_tiro01","path":"objects/obj_player_tiro01/obj_player_tiro01.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
-    {"id":{"name":"spr_brilho_tiro1","path":"sprites/spr_brilho_tiro1/spr_brilho_tiro1.yy",},"order":8,},
+    {"id":{"name":"spr_brilho_tiro1","path":"sprites/spr_brilho_tiro1/spr_brilho_tiro1.yy",},"order":5,},
     {"id":{"name":"spr_impacto","path":"sprites/spr_impacto/spr_impacto.yy",},"order":0,},
     {"id":{"name":"spr_bkg_extra2","path":"sprites/spr_bkg_extra2/spr_bkg_extra2.yy",},"order":3,},
     {"id":{"name":"spr_inimigo1","path":"sprites/spr_inimigo1/spr_inimigo1.yy",},"order":1,},
