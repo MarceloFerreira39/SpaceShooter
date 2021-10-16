@@ -3,8 +3,3 @@
 //Criando o tiro se eu já estou aparecendo na tela 
 
 
-atirando();
-//reiniciando o alarme
-
-alarm[0] = room_speed * random_range(1, 3);
-

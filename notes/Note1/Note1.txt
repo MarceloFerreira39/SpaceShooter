@@ -64,4 +64,8 @@
 		9.4.5 - Criar a variavel Cores - OK
 	
 10 - Criando o background - ok
-	10.1
+
+11 - Criando o segundo inimigo 
+
+	11.1 Importando a Sprite dele - 
+	11.2 Importando o Objeto dele -
