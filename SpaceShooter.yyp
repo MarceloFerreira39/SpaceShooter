@@ -21,6 +21,7 @@
     {"id":{"name":"spd_player","path":"sprites/spd_player/spd_player.yy",},"order":0,},
     {"id":{"name":"spr_player_tiro02","path":"sprites/spr_player_tiro02/spr_player_tiro02.yy",},"order":2,},
     {"id":{"name":"obj_impacto","path":"objects/obj_impacto/obj_impacto.yy",},"order":0,},
+    {"id":{"name":"obj_crontrol","path":"objects/obj_crontrol/obj_crontrol.yy",},"order":8,},
     {"id":{"name":"obj_player_tiro02","path":"objects/obj_player_tiro02/obj_player_tiro02.yy",},"order":2,},
     {"id":{"name":"obj_tiro2_inimigo","path":"objects/obj_tiro2_inimigo/obj_tiro2_inimigo.yy",},"order":3,},
     {"id":{"name":"spr_tiro2_inimigo","path":"sprites/spr_tiro2_inimigo/spr_tiro2_inimigo.yy",},"order":2,},

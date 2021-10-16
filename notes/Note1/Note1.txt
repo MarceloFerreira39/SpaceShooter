@@ -89,6 +89,11 @@
 		12.5.1 - fazer ela ganhar 90° - OK
 	12.6 - Indo para a direção do player apenas se o mesmo existir - OK
 	
-13 - Criação procedural dos inimigos
+13 - Criação procedural dos inimigos -
+	13.1 - fazer com que o objeto controlado mande inimigo de tempos em tempos - ok
+		13.1.1 - Fazendo que a posição Y e X sejam aleatórios - OK
 
 14 - Criando objeto controlador do jogo 
+	14.1 -Ganhando pontos ao destruir oinimigo -
+	
+15 - Sistema de pontos
