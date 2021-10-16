@@ -7,7 +7,7 @@ atirando = function()
 {
 	if(y >= 0)
 	{
-		instance_create_layer(x -3, y + 20, "Tiros", obj_inimigo_tiro1);
+		instance_create_layer(x -3, y + 20, "Tiros", obj_tiro1_inimigo);
 	}
 
 }

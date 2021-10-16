@@ -67,5 +67,23 @@
 
 11 - Criando o segundo inimigo 
 
-	11.1 Importando a Sprite dele - 
-	11.2 Importando o Objeto dele -
+	11.1 - Importando a Sprite dele - OK
+	11.2 - Importando o Objeto dele - OK
+	11.3 - Fazer o inimigo 2 herdar o comportamento do inimigo 1 -OK
+	11.4 - Fazendo o inimigo 2 mudar de direção (no meio da room)
+		11.4.1 - Checando que lado da room eu estou - OK
+			11.4.1.1 - Checando se esta na Diereita - OK
+			11.4.1.2 - Checando se esta na Esquerda - OK
+	11.5 - Fazer o inimigo 2 mudar de direção se ele já passou de um terço da tela - ok
+	11.6 - So mudar de direção UMA VEZ - OK
+	11.7 - Fazendo o inimigo criar o proprio tiro -
+		11.7.1 - Criar a função atirando do inimigo 02 - OK
+		
+	
+12 - Criando o segundo tiro do inimigo
+	12.1 - Importar sprite - OK
+	12.2 - importar objeto - OK
+	12.3 - Fazendo ele ser filho do tiro1 - OK
+	12.4 - iniciar indo na direção do player - OK
+	12.5 - Apontando a direção do player -
+	
