@@ -85,5 +85,10 @@
 	12.2 - importar objeto - OK
 	12.3 - Fazendo ele ser filho do tiro1 - OK
 	12.4 - iniciar indo na direção do player - OK
-	12.5 - Apontando a direção do player -
+	12.5 - Apontando a direção do player - OK
+		12.5.1 - fazer ela ganhar 90° - OK
+	12.6 - Indo para a direção do player apenas se o mesmo existir - OK
 	
+13 - Criação procedural dos inimigos
+
+14 - Criando objeto controlador do jogo 

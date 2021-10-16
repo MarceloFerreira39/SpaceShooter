@@ -8,5 +8,11 @@ event_inherited();
 speed = 6;
 //Achando a direção para onde eu devo ir
 //Indo para aquela direção
-direction = point_direction(x,y, obj_player.x, obj_player.y);
+//checando se o player existe no Jogo
+if(instance_exists(obj_player))
+{
+	direction = point_direction(x,y, obj_player.x, obj_player.y);
 
+}
+
+image_angle = direction + 90;
