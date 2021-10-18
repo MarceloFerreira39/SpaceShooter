@@ -10,9 +10,9 @@ pontos = 0;
 
 
 //Criando um método para criar pontos 
-
-ganha_pontos = function()
+///@method ganha_pontos(pontos)
+ganha_pontos = function(_pontos)
 {
-	pontos += 10;
+	pontos += _pontos;
 }
 

@@ -101,3 +101,4 @@
 	15.2 - Ganhando ontos ao destruir os inimigos com tiro - OK
 	15.3 - Rodando o metodo de ganhar pontos apenas se a instancia do obj control existe - OK
 	15.4 - Fazendo que inimigos diferentes me deem pontos diferentes -
+	15.5 - Criar uma variavel nos inimos chamada pontos (Quantos pontos cada inimigo terá)

@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+
+
 //checando se já passou de 1/3 da tela (360)
 if(y > room_height/3 && posso_mover_para_lado == true) 
 {
