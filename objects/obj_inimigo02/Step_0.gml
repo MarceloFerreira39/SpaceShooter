@@ -15,14 +15,14 @@ if(y > room_height/3 && posso_mover_para_lado == true)
 	// Se x for maior que 1920 / 2 (960)
 	if(x > room_width/2 )
 	{
-		show_debug_message("Estou na Direita");
+		
 		//Fazendo ir para Esquerda
 		hspeed = -4;
 		
 	}
 	else
 	{
-		show_debug_message("Estou na Esquerda");
+		
 		//Fazendo ir para a Direita
 		hspeed = 4;
 		

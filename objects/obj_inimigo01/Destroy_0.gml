@@ -4,7 +4,7 @@ instance_create_layer(x, y ,"Inimigos", Obj_inimigo_explosao);
 
 
 //rodando o metodo de ganhar pontos 
-pontos = 10;
+
 //Checando se o objeto control existe
 if(instance_exists(obj_crontrol))
 {

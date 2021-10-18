@@ -3,6 +3,8 @@
 
 vspeed = 3;
 
+
+pontos = 10; 
 atirando = function()
 {
 	if(y >= 0)
