@@ -97,3 +97,5 @@
 	14.1 -Ganhando pontos ao destruir oinimigo -
 	
 15 - Sistema de pontos
+	15.1 - Iniciando a variavel pontos - OK
+	15.2 - Ganhando ontos ao destruir os inimigos com tiro - 
