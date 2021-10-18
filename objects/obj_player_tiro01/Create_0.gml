@@ -7,5 +7,5 @@ image_yscale = 3;
 
 //alarm[0] = 2;
 
-cores = choose(c_aqua);
+cores = choose(c_aqua, c_blue, c_teal);
 

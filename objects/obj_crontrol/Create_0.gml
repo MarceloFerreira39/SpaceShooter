@@ -11,3 +11,8 @@ pontos = 0;
 
 //Criando um método para criar pontos 
 
+ganha_pontos = function()
+{
+	pontos += 10;
+}
+

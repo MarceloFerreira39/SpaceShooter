@@ -2,7 +2,8 @@
 
 //Colidindo com o inimigo
 
-instance_destroy();
+//Testando tiro acertando só quando inimigo aparece na room
 
-//Destruindo o inimigo
-instance_destroy(other);
+    instance_destroy();
+	//Destruindo o inimigo
+	instance_destroy(other);
