@@ -15,6 +15,6 @@ gpu_set_blendmode(bm_add);
 
 
 
-draw_sprite_ext(spr_brilho_tiro1, image_index, x, y, image_xscale * .8, image_yscale * .8, image_angle, cores, .3);
+draw_sprite_ext(brilho, image_index, x, y, image_xscale * 1.2, image_yscale * 1.2, image_angle, cores, .5);
 //voltando ao normal 
 gpu_set_blendmode(bm_normal);

@@ -7,5 +7,7 @@ image_yscale = 3;
 
 //alarm[0] = 2;
 
-cores = choose(c_aqua, c_blue, c_teal);
+brilho = spr_brilho_tiro2
+
+cores = choose(c_silver);
 

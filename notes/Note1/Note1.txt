@@ -113,3 +113,19 @@
 	16.2 - Exibindo o level - OK
 	16.3 - Ganhando level quando ganhar um determinado numero de pontos - ok
 	16.4 - Dobrando os pontos para o proximo level - OK
+	
+17 - Deixar o tiro do player automático
+	17.1 - Criando evento para o tiro - OK
+	
+18 - Dando Leveis para os tiros do player
+	18.1 - Criando um sistema de leveis - OK
+	18.2 - Criando o sistema de debug dos leveis - OK
+	18.3 - Fazendo o player da o segundo tiro no level 2 - OK
+	
+19 - Criando o segundo tiro do player -
+	19.1 - Importando a sprite - OK
+	19.2 - Crie o objeto tiro2 - OK
+	19.3 - Falar que esse tiro é filho do tiro um do player - OK
+	19.4 - Ajustando os efeitos do tiro 2 -OK
+	19.5 - Criando 2 tiros por vez ..um em cada asa
+	19.6 - fazendo tiro mudar de direção
