@@ -7,3 +7,5 @@ event_inherited();
 
 //Mudando o meu Brilho
 brilho = spr_brilho_tiro2;
+
+cores = c_orange;

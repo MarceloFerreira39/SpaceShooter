@@ -2,7 +2,7 @@
 
 vspeed = 6;
 
-image_xscale = 8;
+image_xscale = 4;
 image_yscale = 4;
 
 //alarm[0] = 2;

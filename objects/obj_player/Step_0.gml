@@ -40,4 +40,19 @@ else if(keyboard_check_pressed(vk_down)&& level_tiro > 1)
 }
 
 
+//Diminuir a espera do tiro se aperteia a setinha para esquerda (10%)
+//Se a espera do tiro for maior que 10
+
+if(keyboard_check_pressed(vk_left ))
+{
+	espera_tiro *= 0.9;	
+}
+else if(keyboard_check_pressed(vk_right))
+{
+	espera_tiro *= 1.1;
+}
+
+//Aumenta a espare do tiro se apertar a setinha para direita (10%)
+
+
 show_debug_message(level_tiro);
