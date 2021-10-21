@@ -132,4 +132,10 @@
 		19.6.1 - fazendo o tiro ganhar uma direção - OK
 		19.6.2 - Fazendo o tiro inverter a direção horizontal - OK
 	19.7 - Criando o terceiro level do tiro
-		19.7.1 - Criando o tiro 1 e 2
+		19.7.1 - Criando o tiro 1 e 2 - OK
+	19.8 - Criando o quarto level do tiro - Ok
+	19.9 Criando o quinto level do tiro - OK
+	
+20 - Fazendo o Power up
+	20.1 - Criando a sprite do power up -
+	20.2 - Criando o Objeto do power up -

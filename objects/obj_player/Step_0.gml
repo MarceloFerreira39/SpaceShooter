@@ -1,5 +1,5 @@
 /// @description Movimentendo o player AWSD
-//Quando Usar o ord ... a letra é maiuscula se não não funciona.
+//Quando Usar o ord ... a letra é maiuscula se não, não funciona.
 
 
 var up, down, left, right;
@@ -18,6 +18,7 @@ down = (keyboard_check(ord("S")));
 
 //Movendo o Y com base no resultado da conta , para saber a direção de Y depois multiplicar o resultado
 y += (down - up) * velocidade;
+
 //Movendo o X com base no resultado da conta , para saber a direção de X depois multiplicar o resultado
 x += (right - left) * velocidade;
 
@@ -41,18 +42,20 @@ else if(keyboard_check_pressed(vk_down)&& level_tiro > 1)
 
 
 //Diminuir a espera do tiro se aperteia a setinha para esquerda (10%)
-//Se a espera do tiro for maior que 10
+//Se a espera do tiro for maior que 20
+if(keyboard_check_pressed(vk_left) && espera_tiro > 20)
+{
+	
+	espera_tiro *= 0.9
+	
+}
+if(keyboard_check_pressed(vk_right))
+{
+	espera_tiro *= 1.1;	
+}
 
-if(keyboard_check_pressed(vk_left ))
-{
-	espera_tiro *= 0.9;	
-}
-else if(keyboard_check_pressed(vk_right))
-{
-	espera_tiro *= 1.1;
-}
 
 //Aumenta a espare do tiro se apertar a setinha para direita (10%)
 
 
-show_debug_message(level_tiro);
+show_debug_message(espera_tiro);
