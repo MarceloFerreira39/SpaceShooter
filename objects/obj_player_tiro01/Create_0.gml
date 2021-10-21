@@ -9,5 +9,5 @@ image_yscale = 3;
 
 brilho = spr_brilho_tiro2
 
-cores = choose(c_silver);
+cores = choose(c_fuchsia);
 

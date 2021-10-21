@@ -127,5 +127,9 @@
 	19.2 - Crie o objeto tiro2 - OK
 	19.3 - Falar que esse tiro é filho do tiro um do player - OK
 	19.4 - Ajustando os efeitos do tiro 2 -OK
-	19.5 - Criando 2 tiros por vez ..um em cada asa
-	19.6 - fazendo tiro mudar de direção
+	19.5 - Criando 2 tiros por vez ..um em cada asa - |OK
+	19.6 - fazendo tiro mudar de direção - OK
+		19.6.1 - fazendo o tiro ganhar uma direção - OK
+		19.6.2 - Fazendo o tiro inverter a direção horizontal - OK
+	19.7 - Criando o terceiro level do tiro
+		19.7.1 - Criando o tiro 1 e 2
