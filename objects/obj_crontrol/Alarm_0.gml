@@ -15,6 +15,5 @@ if(!instance_exists(obj_inimigo01))
 }
 
 
-
 //reiniciando o alarm e um segundo
 alarm[0] = room_speed * 5;

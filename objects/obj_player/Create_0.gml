@@ -1,6 +1,14 @@
 /// @description Iniciando Variaveis
 // You can write your code in this editor
 
+
+/*
+power up
+1-velocidade - .5	  -Limite = 10 // 45%
+2-espera tiro - 10% -Limite = 20 // 45%
+3-level tiro - 1	  -Limite = 5  // 10%
+
+*/
 velocidade = 5;
 
 espera_tiro = room_speed;
@@ -94,6 +102,34 @@ atirando = function()
 
 }
 
+///@method level_up(chance)
+level_up = function(_chance)
+{
+	if(_chance >= 90)
+	{
+		//Aumentando o level do tiro se o level do tiro for menor do que 5
+		if(level_tiro < 5)
+		{
+			level_tiro++;
+		}
+	}
+	else if(_chance >= 45)
+	{
+		//Checando se a espera do tiro é maior que 20
+		if(espera_tiro > 20)
+		{
+			//Diminuindo o tempo de tiro em 10%
+			espera_tiro *= .9;
+		}
+	}
+	else 
+	{
+		if(velocidade <=10)
+		{
+			velocidade+= .5;
+		}
+	}
 
+}
 
 
