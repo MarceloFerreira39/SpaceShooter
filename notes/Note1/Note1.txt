@@ -136,7 +136,7 @@
 	19.8 - Criando o quarto level do tiro - Ok
 	19.9 Criando o quinto level do tiro - OK
 	
-20 - Fazendo o Power up
+20 - Power up
 	20.1 - Criando a sprite do power up - OK
 	20.2 - Criando o Objeto do power up - OK
 	20.3 - Chance de cada UP - OK
@@ -144,4 +144,5 @@
 	20.5 - Fazer o item colidir com o player e Upar - OK
 	20.6 - Destruir o item ao colidir com o player - Ok
 	20.7 - Criando impacto do tiro ao level_up sendo destruido - OK
-	20.8 - Fazer o inimigo ter uma chance de dropar o powerUp -
+	20.8 - Fazer o inimigo ter uma chance de dropar o powerUp - OK
+	20.8 - Fazer o powerUp se mover quando dropar

@@ -10,3 +10,6 @@ if(instance_exists(obj_crontrol))
 {
 	obj_crontrol.ganha_pontos(pontos);
 }
+
+//Dropando o Item 
+dropa_item(chance);

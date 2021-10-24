@@ -4,6 +4,9 @@
 vspeed = 3;
 
 
+//Chance de dropar o item é 20%
+chance = 20;
+
 pontos = 10; 
 
 //Iniciando o alarm no tempo de 1 e 3 segundos
@@ -28,3 +31,16 @@ atirando = function()
 
 }
 
+
+///@method dropa_item(chance_de_dropar_em_porcentagem)
+dropa_item = function(_chance)
+{
+	var valor = random(100);
+	
+	//Se o valor for menor do que a chance ele cria o item 
+	if(valor < _chance)
+	{
+		//Criando o item 
+		instance_create_layer(x, y, "Tiros", obj_power_up);
+	}
+}
