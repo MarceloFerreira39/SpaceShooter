@@ -2,7 +2,7 @@
 //Quando Usar o ord ... a letra é maiuscula se não, não funciona.
 
 
-var up, down, left, right;
+var up, down, left, right, shield;
 //LEFT
 left = (keyboard_check(ord("A")));
 //RIGHT
@@ -12,8 +12,16 @@ up = (keyboard_check(ord("W")));
 //DOWN
 down = (keyboard_check(ord("S")));
 //Fire
+//Shild
+shield =(keyboard_check_pressed("E"));
 
 
+
+//Criando o escudo do player
+if(shield)
+{
+	instance_create_layer(x, y, layer, obj_escudo);
+}
 
 
 //Movendo o Y com base no resultado da conta , para saber a direção de Y depois multiplicar o resultado

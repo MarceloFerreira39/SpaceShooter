@@ -145,4 +145,14 @@
 	20.6 - Destruir o item ao colidir com o player - Ok
 	20.7 - Criando impacto do tiro ao level_up sendo destruido - OK
 	20.8 - Fazer o inimigo ter uma chance de dropar o powerUp - OK
-	20.8 - Fazer o powerUp se mover quando dropar
+	20.8 - Fazer o powerUp se mover quando dropar - OK
+	20.9 - Fazendo o powerUp mover - OK
+	20.10- Colocando efeito a mais nele - OK
+		20.10.1 - Escolhendo a cor de acordo com o buff - OK
+	20.11- Impedindo que o tiro saia da tela - Ok
+	20.12 -Fazendo o powerUp sumir sozinho - OK
+	
+21 - Escudo do Player
+	21.1 - Criar a Sprites - Ok
+	21.2 - Criando o Objeto - OK
+	21.3 - Fazendo o player criar o escudo ao apertar uma tecla
