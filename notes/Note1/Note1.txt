@@ -170,3 +170,10 @@
 	21.9 - Melhorando o efeito no escudo 
 		21.9.1 - Dando uma transparência no escudo - Ok
 		21.9.2 - Dando um blendmode para o escudo -
+
+22 - Ajustes Gerais
+	22.1 - Arrumar as mascaras de colisão - Ok
+	22.2 - Dando colisão entre o player e os inimigos -
+
+
+23 - Fazendo o Player Morrer

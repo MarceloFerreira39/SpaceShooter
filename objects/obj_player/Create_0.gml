@@ -9,13 +9,17 @@ power up
 3-level tiro - 1	  -Limite = 5  // 10%
 
 */
+
+
 velocidade = 5;
 
 espera_tiro = room_speed;
 
 level_tiro = 1;
 
-	
+
+//Sistema de vida
+vida = 3;
 
 tiro2 = function()
 {
@@ -132,4 +136,5 @@ level_up = function(_chance)
 
 }
 
+show_debug_message(vida);
 

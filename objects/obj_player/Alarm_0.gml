@@ -1,2 +1,0 @@
-/// @description auto_tiro
-

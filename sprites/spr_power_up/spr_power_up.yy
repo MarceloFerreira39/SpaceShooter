@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 2,
   "type": 0,
   "origin": 4,
@@ -10,7 +10,7 @@
   "bbox_left": 0,
   "bbox_right": 68,
   "bbox_top": 0,
-  "bbox_bottom": 68,
+  "bbox_bottom": 66,
   "HTile": false,
   "VTile": false,
   "For3D": false,
