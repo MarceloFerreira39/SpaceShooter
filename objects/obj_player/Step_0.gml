@@ -4,23 +4,24 @@
 
 var up, down, left, right, shield;
 //LEFT
-left = (keyboard_check(ord("A")));
+left = keyboard_check(ord("A"));
 //RIGHT
-right =(keyboard_check(ord("D")));
+right =keyboard_check(ord("D"));
 //UP
-up = (keyboard_check(ord("W")));
+up = keyboard_check(ord("W"));
 //DOWN
-down = (keyboard_check(ord("S")));
+down = keyboard_check(ord("S"));
 //Fire
+shield = keyboard_check_pressed(vk_lshift)
 //Shild
-shield =(keyboard_check_pressed("E"));
-
-
 
 //Criando o escudo do player
 if(shield)
 {
-	instance_create_layer(x, y, layer, obj_escudo);
+	var escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
+	
+	//Eu sou o seu alvo
+	escudo.alvo = id;
 }
 
 
@@ -53,9 +54,7 @@ else if(keyboard_check_pressed(vk_down)&& level_tiro > 1)
 //Se a espera do tiro for maior que 20
 if(keyboard_check_pressed(vk_left) && espera_tiro > 20)
 {
-	
 	espera_tiro *= 0.9
-	
 }
 if(keyboard_check_pressed(vk_right))
 {
@@ -66,4 +65,4 @@ if(keyboard_check_pressed(vk_right))
 //Aumenta a espare do tiro se apertar a setinha para direita (10%)
 
 
-show_debug_message(espera_tiro);
+

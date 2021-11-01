@@ -155,4 +155,13 @@
 21 - Escudo do Player
 	21.1 - Criar a Sprites - Ok
 	21.2 - Criando o Objeto - OK
-	21.3 - Fazendo o player criar o escudo ao apertar uma tecla
+	21.3 - Fazendo o player criar o escudo ao apertar uma tecla - Ok
+	21.4 - Criar uma layer para o escudo - OK
+	21.5 - Fazer que o escudo fique na mesma posição que o player
+		21.5.1 - Corrigindo o delay - OK
+	21.6 - Destruindo o tiro do inimigo com o escudo - Ok
+	21.7 - Deixando o escudo um pouco maior - OK
+	21.8 - Animando o escudo 
+		21.8.1 - Parar a animação no final dela - OK
+		21.8.2 - Depois de um tempo voltar a imagem - 
+			21.8.2.1 - Ao final da animação Ativar um alarm em 2 segundo -
