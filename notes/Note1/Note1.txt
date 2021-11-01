@@ -164,4 +164,9 @@
 	21.8 - Animando o escudo 
 		21.8.1 - Parar a animação no final dela - OK
 		21.8.2 - Depois de um tempo voltar a imagem - 
-			21.8.2.1 - Ao final da animação Ativar um alarm em 2 segundo -
+			21.8.2.1 - Ao final da animação Ativar um alarm em 2 segundo - OK
+			21.8.2.2 - Ao executar o alarme ele deve voltar uma imagem do escudo - OK
+			21.8.2.3 - Se eu chegar no image index ZERO eu me destruo no proximo alarme - Ok
+	21.9 - Melhorando o efeito no escudo 
+		21.9.1 - Dando uma transparência no escudo - Ok
+		21.9.2 - Dando um blendmode para o escudo -

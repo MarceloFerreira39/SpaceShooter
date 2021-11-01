@@ -6,3 +6,8 @@ alvo = noone;
 //Deixando o escudo maior
 image_xscale = 1.2;
 image_yscale = image_xscale;
+
+
+
+//Deixando o escudo meio transparente
+image_alpha = .7;

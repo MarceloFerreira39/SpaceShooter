@@ -1,4 +1,4 @@
-/// @description Se destruir
+/// @description Destruir tiro
 
-show_message("kkkkk");
+
 instance_destroy();
