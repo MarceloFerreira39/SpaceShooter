@@ -169,11 +169,13 @@
 			21.8.2.3 - Se eu chegar no image index ZERO eu me destruo no proximo alarme - Ok
 	21.9 - Melhorando o efeito no escudo 
 		21.9.1 - Dando uma transparência no escudo - Ok
-		21.9.2 - Dando um blendmode para o escudo -
+		21.9.2 - Dando um blendmode para o escudo - OK
 
-22 - Ajustes Gerais
-	22.1 - Arrumar as mascaras de colisão - Ok
-	22.2 - Dando colisão entre o player e os inimigos -
-
-
-23 - Fazendo o Player Morrer
+22 - Fazendo o player colidir
+	22.1 - Fazendo o player ter vida - OK
+	22.2 - Criando o metodo perde vida - Ok
+	22.3 - Fazendo o player morrer se oa vida for menor ou igual a zero - Ok
+	22.4 - Fazendo o player explodir quando morrer - Ok
+	23.5 - Exibindo a vida do player - Ok
+	23.6 - Fazendo o player perder vida ao trombar com Inimigo - OK
+	23.7 - Criando uma tela de game over quando o jogador perder - Ok

@@ -54,15 +54,15 @@ else if(keyboard_check_pressed(vk_down)&& level_tiro > 1)
 //Se a espera do tiro for maior que 20
 if(keyboard_check_pressed(vk_left) && espera_tiro > 20)
 {
+	
 	espera_tiro *= 0.9
 }
 if(keyboard_check_pressed(vk_right))
 {
+	//Aumenta a espare do tiro se apertar a setinha para direita (10%)
 	espera_tiro *= 1.1;	
 }
 
 
-//Aumenta a espare do tiro se apertar a setinha para direita (10%)
-
-
+show_debug_message(vida)
 
