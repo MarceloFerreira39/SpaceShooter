@@ -179,3 +179,7 @@
 	23.5 - Exibindo a vida do player - Ok
 	23.6 - Fazendo o player perder vida ao trombar com Inimigo - OK
 	23.7 - Criando uma tela de game over quando o jogador perder - Ok
+		23.7.1 - Criando a sequencia de game over - Ok
+		23.7.2 - Instanciando a sequencia de gameover quando ele perde - 
+			23.7.2.1 - Checando se o player existe no obj_controler
+			23.7.2.2 - Se o player NÂO existir crio a minha instancia
