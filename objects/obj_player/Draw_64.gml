@@ -1,7 +1,7 @@
 /// @description Vida do player
 // You can write your code in this editor
 
-var altura_gui = display_get_gui_height();
+//var altura_gui = display_get_gui_height();
 
 
 //Desenhando uma navesinha para ser a vida 
@@ -17,8 +17,18 @@ repeat(vida)
 	// 1 = 40 + 20 * 0 = 40
 	// 2 = 40 + 20 * 1 = 60
 	// 3 = 40 + 20 * 2 = 80
-	draw_sprite_ext(spr_player, 0, 40 + espaco * multiplicador, altura_gui - 20, image_xscale * .25, image_yscale * .25, image_angle, image_blend, 0.6);
+	draw_sprite_ext(spr_player, 0, 40 + espaco * multiplicador, 40, .25, .25, 0, c_white, 0.6);
 	
 	//Depois de desenhar aumente o valor do multiplicador
+	multiplicador++;
+}
+
+//resetando o multiplicadort
+multiplicador = 0;
+//Desenhano o escudo
+repeat(escudos)
+{
+	draw_sprite_ext(spr_escudo, 2, 40 + espaco * multiplicador, 80, .2, .2, 0, c_white, 0.6);
+
 	multiplicador++;
 }

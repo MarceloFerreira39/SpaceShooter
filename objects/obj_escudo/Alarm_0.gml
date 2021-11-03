@@ -11,7 +11,7 @@ if(image_index <= 0)
 	
 	instance_destroy();
 }
-else
+else if(image_index > 0)
 {
 	//Diminuindo o Image index (escudo) se ele ainda não esta no Zero
 	image_index--;
@@ -19,6 +19,7 @@ else
 	image_alpha -= .2;
 
 }
+
 //Reiniciando o Alarm em 1 segundo
 alarm[0] = room_speed;
 

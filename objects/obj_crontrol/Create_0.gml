@@ -9,7 +9,7 @@ alarm[0] = room_speed;
 pontos = 0;
 
 //Iniciando o sistema de level
-level = 1;
+level = 5;
 
 //Quantos pontos eu preciso para o proximo level
 proximo_level = 100;
@@ -40,7 +40,7 @@ cria_inimigo = function()
 {
 	//Definindo a posição x e y do inimigo
 	var xx = irandom_range(64, 1888);
-	var yy = irandom_range(-96, -1504);
+	var yy = irandom_range(-96, -1504 - (level * 800));
 
 	//Criando o inimigo com base no level
 	//Escolhendo a chance de crair um inimigo mais forte dependente  do level

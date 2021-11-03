@@ -17,6 +17,7 @@ level_tiro = 1;
 
 vida = 3;
 
+escudos = 3;
 	
 
 tiro2 = function()
