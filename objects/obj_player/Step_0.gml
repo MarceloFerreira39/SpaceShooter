@@ -29,7 +29,7 @@ if(shield  && escudos >  0)
 */
 if(shield  && escudos > 0)
 {
-	if(!instance_exists(obj_escudo))
+	if(!instance_exists(obj_escudo) || obj_escudo.image_index <= 0 )
 	{
 		var escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
 	

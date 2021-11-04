@@ -171,8 +171,9 @@
 		21.9.1 - Dando uma transparência no escudo - Ok
 		21.9.2 - Dando um blendmode para o escudo - OK
 	21.10 - Limitando a quantidade escudo 
-		21.10.1 - Criando a quantidade vcariável de escudo - 
-		21.10.2 - Fazendo o player so criar o escudo Se a quantidade for maior que zero
+		21.10.1 - Criando a quantidade variável de escudo - Ok
+		21.10.2 - Fazendo o player apenas criar o escudo Se a quantidade for maior que zero - OK
+	21.11 - Exibindo o escudo para p usuário - OK
 		
 
 22 - Fazendo o player colidir
@@ -190,9 +191,11 @@
 
 
 23 - Ajustes Gerais
-
 	23.1 - Ajustando os powerups desaparecimentos - OK
 	23.2 - Dando colisão entre o Player e os inimigos - Ok
 	23.3 - Ajustando a trasnpaência dos powerUp - Ok
 	22.4 - Melhorando a dispersão dos inimigos conforme o level - OK
+	
+24 - Screenshake!
+	24.1 - Criar um objeto para fazer o screanshake - OK
 	

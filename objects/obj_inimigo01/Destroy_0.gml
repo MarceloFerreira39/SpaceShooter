@@ -8,7 +8,11 @@ instance_create_layer(x, y ,"Inimigos", Obj_inimigo_explosao);
 //Checando se o objeto control existe
 if(instance_exists(obj_crontrol))
 {
-	obj_crontrol.ganha_pontos(pontos);
+	if(obj_inimigo01 && room >= 0)
+	{
+		
+		obj_crontrol.ganha_pontos(pontos);
+	}
 }
 
 //Dropando o Item 

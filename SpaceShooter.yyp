@@ -4,6 +4,7 @@
     {"id":{"name":"spr_bkg","path":"sprites/spr_bkg/spr_bkg.yy",},"order":2,},
     {"id":{"name":"spr_brilho_inimigo1","path":"sprites/spr_brilho_inimigo1/spr_brilho_inimigo1.yy",},"order":6,},
     {"id":{"name":"spr_player_tiro01","path":"sprites/spr_player_tiro01/spr_player_tiro01.yy",},"order":2,},
+    {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},"order":2,},
     {"id":{"name":"spr_inimigo2","path":"sprites/spr_inimigo2/spr_inimigo2.yy",},"order":3,},
     {"id":{"name":"bkp_extra3","path":"sprites/bkp_extra3/bkp_extra3.yy",},"order":4,},
     {"id":{"name":"obj_inimigo02","path":"objects/obj_inimigo02/obj_inimigo02.yy",},"order":1,},
