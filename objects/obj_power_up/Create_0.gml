@@ -18,6 +18,8 @@ direction = irandom_range(0, 359);
 alarm[0] = room_speed;
 
 //Dependendo da chance a cor vai ser diferente
+
+
 if(chance >= 90)
 {
 	//Se chance for 90 ou mais UP Tiro
@@ -33,5 +35,6 @@ else
 	//Se não  UP espera tiro
 	cor = c_blue;
 }
+
 
 

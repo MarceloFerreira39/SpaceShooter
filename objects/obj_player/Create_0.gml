@@ -115,14 +115,23 @@ level_up = function(_chance)
 		{
 			level_tiro++;
 		}
+		else //caso já esteja no level maximo
+		{
+			//ganhando pontos 
+			ganhando_pontos(100);
+		}
 	}
 	else if(_chance >= 45)
 	{
 		//Checando se a espera do tiro é maior que 20
-		if(espera_tiro > 20)
+		if(espera_tiro > 15)
 		{
 			//Diminuindo o tempo de tiro em 10%
 			espera_tiro *= .9;
+		}
+		else
+		{
+			ganhando_pontos(25);
 		}
 	}
 	else 
@@ -130,6 +139,10 @@ level_up = function(_chance)
 		if(velocidade <=10)
 		{
 			velocidade+= .5;
+		}
+		else
+		{
+			ganhando_pontos(25);
 		}
 	}
 
@@ -140,12 +153,17 @@ level_up = function(_chance)
 
 perde_vida = function()
 {
+	//Se eu levei um tiro e não morri
 	if(vida > 0)
 	{
 		vida--;
+		
+		screenshake(3);
 	}
-	else 
+	else //Eu morri ao levar o tiro
 	{
 		instance_destroy();
+		
+			screenshake(40);
 	}
 }

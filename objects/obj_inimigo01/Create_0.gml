@@ -38,9 +38,11 @@ dropa_item = function(_chance)
 	var valor = random(100);
 	
 	//Se o valor for menor do que a chance ele cria o item 
-	if(valor < _chance)
+	if(valor < _chance && y > 96)
 	{
 		//Criando o item 
 		instance_create_layer(x, y, "Tiros", obj_power_up);
 	}
 }
+
+

@@ -1,6 +1,7 @@
 /// @description Iniciando 
 
-
+//ramdomizando o jogo 
+randomize();
 //Iniciando o alarme em 1 segundo
 alarm[0] = room_speed;
 
@@ -9,7 +10,7 @@ alarm[0] = room_speed;
 pontos = 0;
 
 //Iniciando o sistema de level
-level = 5;
+level = 1;
 
 //Quantos pontos eu preciso para o proximo level
 proximo_level = 100;
@@ -21,7 +22,7 @@ gameover_seq = noone;
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos)
 {
-	pontos += _pontos;
+	pontos += _pontos * level;
 	
 	if(pontos >= proximo_level)
 	{
@@ -29,6 +30,20 @@ ganha_pontos = function(_pontos)
 		
 		//Dobrando o valor do proximo level
 		proximo_level *= 2;
+		
+		/*
+		1 = 0 - 10
+		2 = 100 - 20
+		3 = 200 - 30
+		4 = 400 - 40
+		5 = 800 - 50
+		6 = 1600 - 60
+		7 = 3200 - 70
+		8 = 64400 -80
+		9 = 12800 - 90 
+		10 = 25600 - 100
+		
+		*/
 		
 	}
 	

@@ -1,7 +1,9 @@
 {
   "resources": [
     {"id":{"name":"spr_brilho_up","path":"sprites/spr_brilho_up/spr_brilho_up.yy",},"order":8,},
+    {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":0,},
     {"id":{"name":"spr_bkg","path":"sprites/spr_bkg/spr_bkg.yy",},"order":2,},
+    {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":0,},
     {"id":{"name":"spr_brilho_inimigo1","path":"sprites/spr_brilho_inimigo1/spr_brilho_inimigo1.yy",},"order":6,},
     {"id":{"name":"spr_player_tiro01","path":"sprites/spr_player_tiro01/spr_player_tiro01.yy",},"order":2,},
     {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},"order":2,},
@@ -30,7 +32,8 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"spr_player_tiro02","path":"sprites/spr_player_tiro02/spr_player_tiro02.yy",},"order":3,},
     {"id":{"name":"obj_impacto","path":"objects/obj_impacto/obj_impacto.yy",},"order":0,},
-    {"id":{"name":"obj_crontrol","path":"objects/obj_crontrol/obj_crontrol.yy",},"order":8,},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":8,},
+    {"id":{"name":"screenshake","path":"scripts/screenshake/screenshake.yy",},"order":0,},
     {"id":{"name":"obj_player_tiro02","path":"objects/obj_player_tiro02/obj_player_tiro02.yy",},"order":4,},
     {"id":{"name":"obj_tiro2_inimigo","path":"objects/obj_tiro2_inimigo/obj_tiro2_inimigo.yy",},"order":3,},
     {"id":{"name":"spr_tiro2_inimigo","path":"sprites/spr_tiro2_inimigo/spr_tiro2_inimigo.yy",},"order":2,},
@@ -72,6 +75,8 @@
     {"folderPath":"folders/Objects/Enemy.yy","order":6,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Etc.yy","order":7,"resourceVersion":"1.0","name":"Etc","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Etc.yy","order":3,"resourceVersion":"1.0","name":"Etc","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Boss.yy","order":4,"resourceVersion":"1.0","name":"Boss","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Boss.yy","order":9,"resourceVersion":"1.0","name":"Boss","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

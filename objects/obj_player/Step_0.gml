@@ -47,6 +47,15 @@ y += (down - up) * velocidade;
 //Movendo o X com base no resultado da conta , para saber a direção de X depois multiplicar o resultado
 x += (right - left) * velocidade;
 
+/*Criando as limitações da nave na room
+if(x <= 64) x = 64;
+if(x >= 1856) x = 1856;
+if(y <= 64) y = 64;
+if(y >= 1024) y = 1024;
+*/
+
+x = clamp(x, 64, 1856);
+y = clamp(y, 64, 1024);
 
 //Criando o tiro
 atirando();
@@ -80,5 +89,5 @@ if(keyboard_check_pressed(vk_right))
 }
 
 
-show_debug_message(vida)
+
 

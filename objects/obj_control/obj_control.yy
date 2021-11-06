@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_crontrol",
+  "name": "obj_control",
   "tags": [],
   "resourceType": "GMObject",
 }

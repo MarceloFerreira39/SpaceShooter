@@ -1,6 +1,6 @@
 /// @description Iniciando Tiro 01 Player
 
-vspeed = -10;
+vspeed = -15;
 
 image_xscale = 3;
 image_yscale = 3;

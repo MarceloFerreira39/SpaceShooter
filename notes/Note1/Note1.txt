@@ -45,7 +45,7 @@
 		8.2.3 - Instanciar a explosão ao morrer - OK    
 		8.2.3 - Fazer a exlposão se destruir ao final da animação - OK
 		
-9 - Pequenos ajustes parte 1
+9 - Ajustes gerais parte 1
 	9.1 - Fazendo os inimigos ser destruido ao sair da tela - OK
 	9.2 - Deixando nosso background - OK
 	9.3 - Deixando nosso tiro mais bonito - OK
@@ -190,7 +190,7 @@
 			23.7.2.2 - Se o player NÂO existir crio a minha instancia
 
 
-23 - Ajustes Gerais
+23 - Ajustes Gerais Parte 2
 	23.1 - Ajustando os powerups desaparecimentos - OK
 	23.2 - Dando colisão entre o Player e os inimigos - Ok
 	23.3 - Ajustando a trasnpaência dos powerUp - Ok
@@ -198,4 +198,27 @@
 	
 24 - Screenshake!
 	24.1 - Criar um objeto para fazer o screanshake - OK
+	24.2 - fazendo a tela tremer - OK
+	24.3 - Enfraquecendo o screenshack - OK
+	24.4 - Destruindo o screenshake depois de algum tempo - OK
+	24.5 - Quando destruido , garantir o viewporte volte ao normal - ok
+	24.6 - Criando o screenshack sempre que o inimigo for Destruido - Ok
+	24.7 - Criando uma função para que qualquer um possa criar um screenshake e que possa ativa-lo - OK
+	24.8 - Colocando o screenshake no player - OK
+
+25 - Ajustes Gerais Parte 3
+	25.1 - Ramdomizando o Jogo - OK
+	25.2 - Configurando o player para não sair da room - Ok
+	25.3 - Fazendo os inimigos droparens os itens depois de certa posição - Ok
+	25.4 - Melhorando o sitema de ganahar level - OK
+	25.5 - Ganhar pontos caso o player pegue powerUp - OK
 	
+26 - BOSS!!
+	26.1 - Importando as sprites do boss - Ok
+	26.2 - Criando o Obijeto boss - OK
+	26.3 - Definindo os estados do Boss
+	Vários estados do Boss
+	Fase Invulnerável com recuperação de vida -
+	(Fase cria minions agressivos)
+	
+27 - Animação da chegada do boss!
