@@ -223,7 +223,10 @@
 		26.4.3 - Criando um método estado 1 - OK
 		26.4.4 - Fazendo a troca de estado depois de um tempo - Ok
 	26.5 - Criando o segundo estado do boss
-		26.5.1 - Fazendo ele dar o tiro 1 nos canhões pequenos ao mesmo tempo
+		26.5.1 - Fazendo ele dar o tiro 1 nos canhões pequenos ao mesmo tempo - OK
+		26.5.2 - Criar intervalo entre os tiros - OK
+		26.5.3 - Fazendo o Boss se mover para os lados - OK
+		26.5.4 - Criando o metodo para estado 2 - OK
 		
 	
 	Vários estados do Boss

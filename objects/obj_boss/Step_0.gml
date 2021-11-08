@@ -26,10 +26,12 @@ if(estado_atual == "estado 1")
 
 else if(estado_atual =="estado 2")
 {
-
+	estado02();
 }
 else if(estado_atual =="estado 3")
 {
+
+	
 
 }
 else if(estado_atual =="estado 4")

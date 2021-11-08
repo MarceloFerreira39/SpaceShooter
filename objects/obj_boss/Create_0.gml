@@ -12,15 +12,16 @@ Estado especial 1 = Ficar invulneravel enquanto cria dois minions , para recuper
 
 
 //Inicio da battle boss
-estado_atual = "estado 1"//choose("estado 1", "estado 2", "estado 3");
+estado_atual = "estado 2"//choose("estado 1", "estado 2", "estado 3");
 
 delay_tiro = room_speed /2; //Meio segundo (room speed por padrão são 60 freames)
 espera_tiro = 0;
 
-delay_estado = room_speed * 8; // 8 segundos
+delay_estado = room_speed * 10; // 10 segundos
 espera_estado = delay_estado;
 
-///@method estado01()
+velocidade_horizontal = 4;
+
 estado01 = function()
 {
 	
@@ -39,4 +40,36 @@ estado01 = function()
 	}
 }
 
-alarm[0] = room_speed/11;
+
+estado02 = function() {
+	//Codigo estado02
+	
+	//Indo para direita
+	x += velocidade_horizontal;
+	
+	//Invertendo a velocidade ao tocar no canto da tela
+	
+	
+	if(x >= 1632 || x<= 288)
+	{
+		//Inverta a velocidade horizontal
+		velocidade_horizontal *= -1;
+	}
+	
+	
+	//Diminuindo a espera do tiro
+	espera_tiro--;
+
+	//Criar tiro 1 nos dois canhões quando a espera do tiro for menor que Zero o  igual.
+	if(espera_tiro <= 0)
+	{
+	
+		instance_create_layer(x - 161, y + 10, "Tiros", obj_tiro1_inimigo);
+		instance_create_layer(x + 161, y + 10, "Tiros", obj_tiro1_inimigo);
+		
+		
+		//Atirei , vou mandar ele esperar
+		espera_tiro = delay_tiro * 1.2;
+	}
+	
+}
