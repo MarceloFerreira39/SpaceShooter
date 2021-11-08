@@ -201,7 +201,7 @@
 	24.2 - fazendo a tela tremer - OK
 	24.3 - Enfraquecendo o screenshack - OK
 	24.4 - Destruindo o screenshake depois de algum tempo - OK
-	24.5 - Quando destruido , garantir o viewporte volte ao normal - ok
+	24.5 - Quando destruido , garantir o viewporte volte ao normal - OK
 	24.6 - Criando o screenshack sempre que o inimigo for Destruido - Ok
 	24.7 - Criando uma função para que qualquer um possa criar um screenshake e que possa ativa-lo - OK
 	24.8 - Colocando o screenshake no player - OK
@@ -217,6 +217,15 @@
 	26.1 - Importando as sprites do boss - Ok
 	26.2 - Criando o Obijeto boss - OK
 	26.3 - Definindo os estados do Boss
+	26.4 - Fazer o primeiro estado do boss(criar tiro 2 , enquanto fica parado) - OK
+		26.4.1 - Fazendo o boss criar o tiro 2 do canhão do meio - Ok
+		26.4.2 - Criando o intervalo dos tiros do boss - Ok
+		26.4.3 - Criando um método estado 1 - OK
+		26.4.4 - Fazendo a troca de estado depois de um tempo - Ok
+	26.5 - Criando o segundo estado do boss
+		26.5.1 - Fazendo ele dar o tiro 1 nos canhões pequenos ao mesmo tempo
+		
+	
 	Vários estados do Boss
 	Fase Invulnerável com recuperação de vida -
 	(Fase cria minions agressivos)
