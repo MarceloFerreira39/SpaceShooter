@@ -12,7 +12,7 @@ Estado especial 1 = Ficar invulneravel enquanto cria dois minions , para recuper
 
 
 //Inicio da battle boss
-estado_atual = "estado 2"//choose("estado 1", "estado 2", "estado 3");
+estado_atual = choose("estado 1", "estado 2", "estado 3");
 
 delay_tiro = room_speed /2; //Meio segundo (room speed por padrão são 60 freames)
 espera_tiro = 0;
@@ -22,28 +22,31 @@ espera_estado = delay_estado;
 
 velocidade_horizontal = 4;
 
-estado01 = function()
+tiro_02 = function()//Função tiro numero 2
 {
-	
-	//Diminuindo o valor do espra tiro
-	espera_tiro--;
-	//estado 1
-	//Criar tiro 2 SE a espera do tiro for menor ou =  zero
-	if(espera_tiro <= 0 )
-	{
-		
-		instance_create_layer(x,y + 80,"Tiros", obj_tiro2_inimigo);
-		
-		//Atirei, vou mandar ele esperar
-		espera_tiro = delay_tiro;
-
-	}
+	instance_create_layer(x,y + 80,"Tiros", obj_tiro2_inimigo);
 }
 
 
-estado02 = function() {
-	//Codigo estado02
-	
+///@method tiro_01(true_direita_false_esquerda)
+tiro_01 = function(_direita)//Função de tiro 1
+{
+	if(_direita)
+		{
+			var _posx = 160;
+			
+		}
+		else
+		{
+			var _posx = - 160
+		}
+		
+		instance_create_layer(x + _posx, y + 10, "Tiros", obj_tiro1_inimigo);
+}
+
+movimento_boss = function()
+{
+
 	//Indo para direita
 	x += velocidade_horizontal;
 	
@@ -56,6 +59,32 @@ estado02 = function() {
 		velocidade_horizontal *= -1;
 	}
 	
+}
+
+estado01 = function()
+{
+	
+	//Diminuindo o valor do espra tiro
+	espera_tiro--;
+	//estado 1
+	//Criar tiro 2 SE a espera do tiro for menor ou =  zero
+	if(espera_tiro <= 0 )
+	{
+		
+		tiro_02();
+		
+		//Atirei, vou mandar ele esperar
+		espera_tiro = delay_tiro;
+
+	}
+}
+
+
+estado02 = function() {
+	//Codigo estado02
+	
+	//Indo para direita
+	movimento_boss();
 	
 	//Diminuindo a espera do tiro
 	espera_tiro--;
@@ -64,12 +93,11 @@ estado02 = function() {
 	if(espera_tiro <= 0)
 	{
 	
-		instance_create_layer(x - 161, y + 10, "Tiros", obj_tiro1_inimigo);
-		instance_create_layer(x + 161, y + 10, "Tiros", obj_tiro1_inimigo);
-		
+		tiro_01(false);//esquerda
+		tiro_01(true);//Direita
 		
 		//Atirei , vou mandar ele esperar
-		espera_tiro = delay_tiro * 1.2;
+		espera_tiro = delay_tiro * 1.4;
 	}
 	
 }
