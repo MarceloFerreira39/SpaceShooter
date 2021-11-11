@@ -12,6 +12,13 @@ Estado especial 1 = Ficar invulneravel enquanto cria dois minions , para recuper
 
 
 //Inicio da battle boss
+
+
+//Iniciando sistema de vida
+vida_max = 2000;
+vida_atual = vida_max
+
+
 estado_atual = choose("estado 1", "estado 2", "estado 3");
 
 delay_tiro = room_speed /2; //Meio segundo (room speed por padrão são 60 freames)
@@ -21,6 +28,8 @@ delay_estado = room_speed * 10; // 10 segundos
 espera_estado = delay_estado;
 
 velocidade_horizontal = 4;
+
+
 
 tiro_02 = function()//Função tiro numero 2
 {
@@ -44,22 +53,7 @@ tiro_01 = function(_direita)//Função de tiro 1
 		instance_create_layer(x + _posx, y + 10, "Tiros", obj_tiro1_inimigo);
 }
 
-movimento_boss = function()
-{
 
-	//Indo para direita
-	x += velocidade_horizontal;
-	
-	//Invertendo a velocidade ao tocar no canto da tela
-	
-	
-	if(x >= 1632 || x<= 288)
-	{
-		//Inverta a velocidade horizontal
-		velocidade_horizontal *= -1;
-	}
-	
-}
 
 estado01 = function()
 {
@@ -74,13 +68,14 @@ estado01 = function()
 		tiro_02();
 		
 		//Atirei, vou mandar ele esperar
-		espera_tiro = delay_tiro;
+		espera_tiro = delay_tiro +10;
 
 	}
 }
 
 
-estado02 = function() {
+estado02 = function() 
+{
 	//Codigo estado02
 	
 	//Indo para direita
@@ -97,7 +92,47 @@ estado02 = function() {
 		tiro_01(true);//Direita
 		
 		//Atirei , vou mandar ele esperar
-		espera_tiro = delay_tiro * 1.4;
+		espera_tiro = delay_tiro * 1.3;
+	}
+	
+}
+
+estado03 = function() 
+{
+		//estado 3
+	movimento_boss();
+	
+	espera_tiro--;
+	//Criando o tiro 2 do canhão 
+	if(espera_tiro <= 0)
+	{
+		tiro_02();
+		
+		espera_tiro = delay_tiro + 20; //30 segundo + 20
+	}
+	if(espera_tiro == delay_tiro )//Meio segundo para o Zero , que é quando ele cria o tiro
+	{
+		//Criando tiro 1 esquerda 
+		tiro_01(false);
+		//Tiro 1 direita
+		tiro_01(true);
+	}
+	
+}
+
+
+movimento_boss = function()
+{
+
+	//Indo para direita
+	x += velocidade_horizontal;
+	
+	//Invertendo a velocidade ao tocar no canto da tela
+	
+	if(x >= 1632 || x<= 288)
+	{
+		//Inverta a velocidade horizontal
+		velocidade_horizontal *= -1;
 	}
 	
 }

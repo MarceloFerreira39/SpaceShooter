@@ -229,7 +229,12 @@
 		26.5.4 - Criando o metodo para estado 2 - OK
 	26.6 - Criando o terceiro estado do Boss - 
 		26.6.1 - Criando o tiro 2 do canhão no dobro do tempo da espera - OK
-		26.6.2 - Criando o Tiro 1 dos canhões -
+		26.6.2 - Criando o Tiro 1 dos canhões - OK
+		26.6.3 - Criando tiro 1 e tiro 2 em tempos diferentes - OK
+		26.6.4 - Criando um método para o estado 3 - OK
+	26.7 - Criando vida do Boss
+		26.7.1 - iniciando a variavel vida - OK
+		26.7.2 - Exibindo a vida do Boss(barra de vida) -
 	
 	Vários estados do Boss
 	Fase Invulnerável com recuperação de vida -

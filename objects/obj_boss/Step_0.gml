@@ -31,24 +31,7 @@ else if(estado_atual =="estado 2")
 else if(estado_atual =="estado 3")
 {
 	
-	//estado 3
-	movimento_boss();
-	
-	espera_tiro--;
-	//Criando o tiro 2 do canhão 
-	if(espera_tiro <= 0)
-	{
-		tiro_02();
-		
-		espera_tiro = delay_tiro *1.5;
-	
-	
-	
-	//Criando tiro 1 esquerda 
-	tiro_01(false);
-	//Tiro 1 direita
-	tiro_01(true);
-	}
+	estado03();
 
 }
 else if(estado_atual =="estado 4")
