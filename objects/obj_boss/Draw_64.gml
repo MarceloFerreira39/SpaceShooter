@@ -4,4 +4,4 @@
 
 //Desenhando a barra de vida do boss
 
-draw_healthbar()
+vida_boss();

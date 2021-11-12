@@ -2,6 +2,11 @@
 // You can write your code in this editor
 
 
+//Se eu apertar enter o boss perde 10 de vida
+if(keyboard_check(vk_enter)) 
+{
+	vida_atual-=10;
+}
 //debug do estado atual
 
 show_debug_message(estado_atual);
@@ -38,3 +43,5 @@ else if(estado_atual =="estado 4")
 {
 
 }
+
+

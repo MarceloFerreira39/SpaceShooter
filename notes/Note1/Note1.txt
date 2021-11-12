@@ -194,7 +194,9 @@
 	23.1 - Ajustando os powerups desaparecimentos - OK
 	23.2 - Dando colisão entre o Player e os inimigos - Ok
 	23.3 - Ajustando a trasnpaência dos powerUp - Ok
-	22.4 - Melhorando a dispersão dos inimigos conforme o level - OK
+	23.4 - Melhorando a dispersão dos inimigos conforme o level - OK
+	23.5 - Impedindo que o player crie mais de um escudo por vez - OK
+	23.6 - Impedidno que o player leve dano com o escudo - OK
 	
 24 - Screenshake!
 	24.1 - Criar um objeto para fazer o screanshake - OK
@@ -234,7 +236,8 @@
 		26.6.4 - Criando um método para o estado 3 - OK
 	26.7 - Criando vida do Boss
 		26.7.1 - iniciando a variavel vida - OK
-		26.7.2 - Exibindo a vida do Boss(barra de vida) -
+		26.7.2 - Exibindo a vida do Boss(barra de vida) - OK
+		26.7.3 - Fazendo o boss levar tiro - 
 	
 	Vários estados do Boss
 	Fase Invulnerável com recuperação de vida -
