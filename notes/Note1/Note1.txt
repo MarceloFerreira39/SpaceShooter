@@ -240,8 +240,8 @@
 		26.7.1 - iniciando a variavel vida - OK
 		26.7.2 - Exibindo a vida do Boss(barra de vida) - OK
 		26.7.3 - Fazendo o boss levar tiro - OK 
-	26.8 - Criando o quarto estado do boss -
-		26.8.1 - Importando a Sprite
+	26.8 - Criando o quarto estado do boss - OK
+		26.8.1 - Importando a Sprite - OK
 		26.8.2 - Fazendo com que o Boss tenha a sprite escura no uqrato estado - OK
 		26.8.3 - fazendo o boss não levar dano no estado 4 - OK
 		26.8.4 - Fazer o Boss ter a sprite original em qualquer estado , menos o 4º - OK
@@ -249,8 +249,17 @@
 		26.8.6 - Criando o tiro do minion do boss - OK
 		26.8.7 - Fazendo com que o minion atire - OK
 		26.8.9 - Fazendo o tiro do minion recupara 5 de vida - OK
-		26.8.10 - Fazendo os dois minions aparecerem transparentes e depois ficarem visiveis - 
-	
+		26.8.10 - Fazendo os dois minions aparecerem transparentes e depois ficarem visiveis - OK
+		26.8.11 - Fazendo os minions levarem tiros (perdendo 1 de vida) - Ok
+		26.8.12 - Dando N() de vida para os minions -OK
+		26.8.13 - Fazendo o Minion morrer - OK
+		26.8.14 - Fazendo o minion explodir ao morrer - OK
+		26.8.15 - Melhorando o Feedback para o player - OK
+			26.8.15.1 - Fazendo ele ficar transparente conforme leva tiro - OK
+			26.8.15.2 - Fazendo o valor do aumento escala Subir - OK
+		26.8.16 - Alterando os efeitos do Minion - OK
+			26.8.16.1 - Fazendo a escala aumentar e diminuir - OK
+		26.8.17 - Fazendo o Boss criar os minions wqunado entrar no estado quatro -
 	
 	Vários estados do Boss
 	Fase Invulnerável com recuperação de vida -

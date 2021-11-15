@@ -151,7 +151,6 @@ level_up = function(_chance)
 
 
 ///@method perde_vida();
-
 perde_vida = function()
 {
 	

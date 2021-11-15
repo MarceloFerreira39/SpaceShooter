@@ -7,3 +7,6 @@ instance_create_layer(x, y, "Tiros", obj_tiro_minion);
 
 //Reiniciando
 alarm[0] = room_speed / 2;
+
+//Avisando que eu já dei o primeiro tiro 
+primeiro_tiro = true;
