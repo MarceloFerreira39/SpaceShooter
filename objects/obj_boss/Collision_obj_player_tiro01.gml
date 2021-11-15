@@ -3,9 +3,12 @@
 
 
 // So perde dano se eu não estou no estado 4
+
 if(estado_atual != "estado 4")
 {
+	
 	//Perdendo 1 de vida
+
 	if(vida_atual > 0)
 	{
 	

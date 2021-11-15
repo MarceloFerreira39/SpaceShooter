@@ -245,7 +245,11 @@
 		26.8.2 - Fazendo com que o Boss tenha a sprite escura no uqrato estado - OK
 		26.8.3 - fazendo o boss não levar dano no estado 4 - OK
 		26.8.4 - Fazer o Boss ter a sprite original em qualquer estado , menos o 4º - OK
-		36.8.5 - Criando o Objeto minion do Boss
+		26.8.5 - Criando o Objeto minion do Boss - OK
+		26.8.6 - Criando o tiro do minion do boss - OK
+		26.8.7 - Fazendo com que o minion atire - OK
+		26.8.9 - Fazendo o tiro do minion recupara 5 de vida - OK
+		26.8.10 - Fazendo os dois minions aparecerem transparentes e depois ficarem visiveis - 
 	
 	
 	Vários estados do Boss
