@@ -3,7 +3,7 @@
 	1.2 - Movimentar o player com WASD no STEP- OK
 	1.3 - Melhorando o codigo de movimentação - OK
 	
-2 - Ajustando as dimensões da room e view porte da room
+2 - Ajustando as dimensões da room e viewporte da room
 	2.1 - Criando uma viewporte e camera para o jogo - ok
 	2.2 - Ajustando as dimensões para a view ser grande e a vienwporte menor - OK
 	
@@ -196,7 +196,9 @@
 	23.3 - Ajustando a trasnpaência dos powerUp - Ok
 	23.4 - Melhorando a dispersão dos inimigos conforme o level - OK
 	23.5 - Impedindo que o player crie mais de um escudo por vez - OK
+		23.5.1 - Fazendo o player só criar o escudo Se o meu_escudo for  noone - OK
 	23.6 - Impedidno que o player leve dano com o escudo - OK
+		23.6.1 - Fazendo o escudo avisar ao alvo dele que o meu_escudo do alvo dele é noone  - OK
 	
 24 - Screenshake!
 	24.1 - Criar um objeto para fazer o screanshake - OK
@@ -237,7 +239,14 @@
 	26.7 - Criando vida do Boss
 		26.7.1 - iniciando a variavel vida - OK
 		26.7.2 - Exibindo a vida do Boss(barra de vida) - OK
-		26.7.3 - Fazendo o boss levar tiro - 
+		26.7.3 - Fazendo o boss levar tiro - OK 
+	26.8 - Criando o quarto estado do boss -
+		26.8.1 - Importando a Sprite
+		26.8.2 - Fazendo com que o Boss tenha a sprite escura no uqrato estado - OK
+		26.8.3 - fazendo o boss não levar dano no estado 4 - OK
+		26.8.4 - Fazer o Boss ter a sprite original em qualquer estado , menos o 4º - OK
+		36.8.5 - Criando o Objeto minion do Boss
+	
 	
 	Vários estados do Boss
 	Fase Invulnerável com recuperação de vida -

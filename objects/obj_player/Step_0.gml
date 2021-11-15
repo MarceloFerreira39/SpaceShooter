@@ -12,7 +12,7 @@ up = keyboard_check(ord("W"));
 //DOWN
 down = keyboard_check(ord("S"));
 //Fire
-shield = keyboard_check_pressed(vk_lshift)
+
 //Shild
 
 //Criando o escudo do player se apertei o shift E se eu tenho mais do que Zero
@@ -27,18 +27,7 @@ if(shield  && escudos >  0)
 	escudos--;
 }
 */
-if(shield  && escudos > 0)
-{
-	if(!instance_exists(obj_escudo) || obj_escudo.image_index <= 0 )
-	{
-		var escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
-	
-		//Eu sou o seu alvo
-		escudo.alvo = id;
-		//Diminuindo a quantidade de escudos
-		escudos--;
-	}
-}
+cria_escudo();
 
 
 //Movendo o Y com base no resultado da conta , para saber a direção de Y depois multiplicar o resultado

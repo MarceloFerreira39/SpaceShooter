@@ -15,7 +15,7 @@ Estado especial 1 = Ficar invulneravel enquanto cria dois minions , para recuper
 
 
 //Iniciando sistema de vida
-vida_max = 2000;
+vida_max = 1000;
 vida_atual = vida_max
 
 
@@ -31,7 +31,7 @@ vida_boss = function()
 	draw_healthbar(200, 20,1080, 30, boss, c_black, c_maroon, c_lime, 0, true, true);
 }
 
-estado_atual = choose("estado 1", "estado 2", "estado 3");
+estado_atual = "estado 4"//choose("estado 1", "estado 2", "estado 3");
 
 delay_tiro = room_speed /2; //Meio segundo (room speed por padrão são 60 freames)
 espera_tiro = 0;
@@ -39,7 +39,7 @@ espera_tiro = 0;
 delay_estado = room_speed * 10; // 10 segundos
 espera_estado = delay_estado;
 
-velocidade_horizontal = 4;
+velocidade_horizontal = 3;
 
 
 
@@ -136,6 +136,7 @@ estado03 = function()
 movimento_boss = function()
 {
 
+	
 	//Indo para direita
 	x += velocidade_horizontal;
 	

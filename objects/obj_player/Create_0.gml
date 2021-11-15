@@ -18,6 +18,8 @@ level_tiro = 1;
 vida = 3;
 
 escudos = 3;
+
+meu_escudo = noone;
 	
 
 tiro2 = function()
@@ -58,50 +60,49 @@ atirando = function()
 	var fire = keyboard_check(vk_space);
 	//y do meu tiro
 	
+		if(fire && alarm[0] == -1)
+		{
+			var y_tiro = y - sprite_height/4;
+			//Ativando o Alrme
+			alarm[0] =espera_tiro;
 	
-	if(fire && alarm[0] == -1)
-	{
-		var y_tiro = y - sprite_height/4;
-		//Ativando o Alrme
-		alarm[0] =espera_tiro;
+			//Criar o tiro na hora que aperta espaço
+			//e depois so atirar novamente em um segundo
+			//Meu codigo de criar o tiro
+		
+			//Criar um condição que altere para atirar dependendo do level do tiro
+			//Tiro level 1
+			if(level_tiro == 1)
+			{
+				instance_create_layer(x, y_tiro , "Tiros", obj_player_tiro01);
+			}
+		
+			//Tiro level 2
+			else if(level_tiro == 2)
+			{
+				tiro2();	
+			}
+			else if(level_tiro == 3)
+			{
+				instance_create_layer(x, y_tiro , "Tiros", obj_player_tiro01);
+				tiro2();
+			}
+		
+			//Tiro level 4
+			else if(level_tiro == 4)
+			{
 	
-		//Criar o tiro na hora que aperta espaço
-		//e depois so atirar novamente em um segundo
-		//Meu codigo de criar o tiro
+				tiro4();
+			}	
 		
-		//Criar um condição que altere para atirar dependendo do level do tiro
-		//Tiro level 1
-		if(level_tiro == 1)
-		{
-			instance_create_layer(x, y_tiro , "Tiros", obj_player_tiro01);
-		}
-		
-		//Tiro level 2
-		else if(level_tiro == 2)
-		{
-			tiro2();	
-		}
-		else if(level_tiro == 3)
-		{
-			instance_create_layer(x, y_tiro , "Tiros", obj_player_tiro01);
-			tiro2();
-		}
-		
-		//Tiro level 4
-		else if(level_tiro == 4)
-		{
-	
-			tiro4();
-		}	
-		
-		//Tiro do level 5
-		else if(level_tiro == 5)
-		{
-			tiro2();
-			tiro4();
-		}
+			//Tiro do level 5
+			else if(level_tiro == 5)
+			{
+				tiro2();
+				tiro4();
+			}
 
-	}
+		}
 
 }
 
@@ -153,17 +154,47 @@ level_up = function(_chance)
 
 perde_vida = function()
 {
-	//Se eu levei um tiro e não morri
-	if(vida > 0)
+	
+	//Só vou perder vida se meu escudo for noone
+	if(!meu_escudo)
 	{
-		vida--;
+		//Se eu levei um tiro e não morri
+		if(vida > 0)
+		{
+			vida--;
 		
-		screenshake(3);
+			screenshake(3);
+		}
+		else //Eu morri ao levar o tiro
+		{
+			instance_destroy();
+		
+				screenshake(40);
+		}
 	}
-	else //Eu morri ao levar o tiro
+}
+
+
+cria_escudo = function()
+{
+	
+	var shield = keyboard_check_pressed(vk_lshift)
+	
+	//Criando o escudo Se não tiver outro escudo ativado
+	if(shield  && escudos > 0)
 	{
-		instance_destroy();
+		if(!instance_exists(obj_escudo) || obj_escudo.image_index == noone )
+		{
+			var escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
+	
+			//Eu sou o seu alvo
+			escudo.alvo = id;
 		
-			screenshake(40);
+			//Avisando que esse escudo é meu escudo
+			meu_escudo = escudo;
+		
+			//Diminuindo a quantidade de escudos
+			escudos--;
+		}
 	}
 }
