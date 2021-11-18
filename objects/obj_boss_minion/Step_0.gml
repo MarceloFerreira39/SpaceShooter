@@ -23,3 +23,4 @@ else if(escala < 0.5)
 //Aumentando a escala pelo valor de aumento
 escala += aumento_escala;
 //diminuindo  a escala enquanto ela for menor do que 0.5
+

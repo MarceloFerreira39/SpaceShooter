@@ -15,8 +15,8 @@ Estado especial 1 = Ficar invulneravel enquanto cria dois minions , para recuper
 
 
 //Iniciando sistema de vida
-vida_max = 2000;
-vida_atual = vida_max /2;
+vida_max = 1500;
+vida_atual = vida_max;
 
 
 //Função para desenhar a barra de vida , com 30 pixel de altura
@@ -31,7 +31,7 @@ vida_boss = function()
 	draw_healthbar(200, 20,1080, 30, boss, c_black, c_maroon, c_lime, 0, true, true);
 }
 
-estado_atual = "estado 4"//choose("estado 1", "estado 2", "estado 3");
+estado_atual = choose("estado 1", "estado 2", "estado 3");
 
 delay_tiro = room_speed /2; //Meio segundo (room speed por padrão são 60 freames)
 espera_tiro = 0;
@@ -41,7 +41,8 @@ espera_estado = delay_estado;
 
 velocidade_horizontal = 3;
 
-
+//Criar minions 
+criar_minions = true;
 
 tiro_02 = function()//Função tiro numero 2
 {
@@ -132,7 +133,36 @@ estado03 = function()
 	
 }
 
+estado04 = function()
+{
+   //Trocando de strite
+	sprite_index = spr_boss_escudo;
 
+	//Indo para o meio da tela
+	//Convertendo esse valor para 1, -1 ou 0
+	//Se na função sign , dou um valor posistivo ele retorna 1 , se for negativo ele retorna -1 , caso for 0 ele retorna 0
+	x += sign(room_width /2 - x);
+	
+	
+	//Codigos estado 4
+	
+	//Criando Monions SE eu posso criar minions
+
+		if(criar_minions)
+		{
+			//Criando os monions
+			//Esquerda
+			var _minion = instance_create_layer(128, 627, "Inimigos", obj_boss_minion);
+	
+			//Direita
+			var _minion = instance_create_layer(1760, 672, "Inimigos", obj_boss_minion);
+		
+			//já criei os minions , já não posso criar mais.
+			criar_minions = false;
+		}
+	
+	
+}
 movimento_boss = function()
 {
 
@@ -148,4 +178,29 @@ movimento_boss = function()
 		velocidade_horizontal *= -1;
 	}
 	
+}
+
+troca_estado = function()
+{
+	espera_estado--;
+	
+	if(espera_estado <= 0)
+	{
+		//Vou escolher outro estado SE minha vida não for menor ou igual a metade
+		if(vida_atual > (vida_max /2))
+		{
+			estado_atual = choose("estado 1", "estado 2", "estado 3");
+		}
+		else
+		{
+			estado_atual = choose("estado 4", "estado 3", "estado 2" );
+		}
+	
+		//Fazendo o espera estado ter um valor alto de novo(6 segundo neste caso)
+		espera_estado = delay_estado;
+	
+		//Pode criar minion
+		criar_minions = true;
+	}
+
 }

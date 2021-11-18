@@ -259,7 +259,15 @@
 			26.8.15.2 - Fazendo o valor do aumento escala Subir - OK
 		26.8.16 - Alterando os efeitos do Minion - OK
 			26.8.16.1 - Fazendo a escala aumentar e diminuir - OK
-		26.8.17 - Fazendo o Boss criar os minions wqunado entrar no estado quatro -
+		26.8.17 - Fazendo o Boss criar os minions qunado entrar no estado quatro - OK
+			26.8.17.1 - Criando os minions no angulo correto - OK
+			26.8.17.2 - Cheque se o minion foi criado em cima de outro minion - OK
+			26.8.17.3 - Fazendo que o boss so crie uma vez os minions no estado 4 - OK
+			26.8.17.4 - Fazendo ele poder criar Minion ao sair do estado 4 - OK
+			26.8.17.5 - fazer com que ele possa chegar nos estado 4 , Se a vida for igual ou menor que a metade da vida maxima - OK
+		26.8.18 - Criar o metodo troca estado - OK
+		26.8.19 - Fazendo o boss ir para o meio da tela (sign) - OK
+	26.9 - Criar o metodo para a troca de estado - OK
 	
 	Vários estados do Boss
 	Fase Invulnerável com recuperação de vida -
