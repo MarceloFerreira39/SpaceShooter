@@ -6,7 +6,7 @@ function screenshake(_shake){
 	screen.shake = _shake;
 
 }
-//Funcção para ganhar pontos 
+//Funcção para ganhando_pontos(_pontos) 
 
 function ganhando_pontos(_pontos)
 {
@@ -14,4 +14,16 @@ function ganhando_pontos(_pontos)
 	{
 		obj_control.ganha_pontos(100);
 	}
+}
+
+//Destruindo a sequiancia 
+function destroi_seq()
+{
+	//Tentando pegar a sequencia da minha layer
+	var elementos = layer_get_all_elements("Boss_entrada");
+	layer_sequence_destroy(elementos[0]);
+	
+	
+	//Criando o Boss
+	instance_create_layer(960, 256, "Boss", obj_boss);
 }
