@@ -274,3 +274,6 @@
 	(Fase cria minions agressivos)
 	
 27 - Animação da chegada do boss!
+	27.1 - importar a sprite do boss - OK
+	27.2 - Criar animação da chegada - OK
+	27.3 - Destruindo a sequiancia ao final da animação
