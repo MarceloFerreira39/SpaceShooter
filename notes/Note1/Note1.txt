@@ -273,10 +273,22 @@
 	Fase Invulnerável com recuperação de vida -
 	(Fase cria minions agressivos)
 	
-27 - Animação da chegada do boss!
+27 - Animação da chegada do boss!(960-544)
 	27.1 - importar a sprite do boss - OK
 	27.2 - Criar animação da chegada - OK
 	27.3 - Destruindo a sequiancia ao final da animação - OK
 	27.4 - Criando o Boss depois da sequancia - OK
 	
 28 - Animação da morte do boss 
+	28.1 - Deixando a animação com 10 segundo - OK
+	28.2 - Criando várias explosões pelo boss - Ok
+	28.3 - Fazendo o Boss cair da tela até sumir - OK
+	28.4 - Fazendo o boss criar a animação dele morrendo quando for destruido - ok
+	28.5 - Criando a animação do boss morrer na direção que foi derrotado - OK
+	
+29 - Fazer o control criar o Boss quando ele chegar no level 10
+	29.1 - Criando inimigo se eu ainda não estou no level 10 - OK
+	29.2 - Criando o boss se estiver no level 10 - OK
+	29.3 - garantir que o boss seja criado uma unica vez - Ok
+	
+30 - Criando a animação de termino de level do player

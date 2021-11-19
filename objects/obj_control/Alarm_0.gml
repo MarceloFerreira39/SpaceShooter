@@ -8,11 +8,32 @@ if(!instance_exists(obj_inimigo01))
 	
 	var repetir = 10 * level;
 	//Rodar esse codigo apenas se não houver inimigos!
-	repeat(repetir)
+	//Só criar inimigos se eu ainda não cheguei no level 10
+	if(level < 10)
 	{
-		cria_inimigo();
+		repeat(repetir)
+		{
+			cria_inimigo();
+		}
 	}
+	else 
+	{
+		//Cria a animação de entrada no boss 
+		//garantir que so cria uma vez
+		if(criar_boss == true)
+		{
+			layer_sequence_create("Boss_entrada", 960 , 544 - 32, sq_boss);
+			
+			//avisar que não posso mais criar o boss
+			criar_boss = false;
+		}
+	}
+
+	
 }
+
+
+	
 
 
 //reiniciando o alarm e um segundo

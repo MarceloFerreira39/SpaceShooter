@@ -16,7 +16,7 @@ Estado especial 1 = Ficar invulneravel enquanto cria dois minions , para recuper
 
 //Iniciando sistema de vida
 vida_max = 1500;
-vida_atual = vida_max;
+vida_atual = 1;
 
 
 //Função para desenhar a barra de vida , com 30 pixel de altura
