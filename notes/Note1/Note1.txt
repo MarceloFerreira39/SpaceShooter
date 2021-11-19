@@ -308,6 +308,7 @@
 		31.2.3 - Desenhar o texto dos botões
 			31.2.3.1 - Desenhar a fonte centralizada (Não usei o draw image) - OK
 			31.2.3.2 - Permitir que o texto seja centralizado(Não usei o draw image) - OK 
+	31.3 - Ao clicar no botão instanciar o objeto trnasição ao destino desejado 
 	
 32 - Criar transições
 	32.1 - Criando o obj de transição - OK

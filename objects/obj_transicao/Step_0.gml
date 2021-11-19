@@ -19,7 +19,7 @@ if(alpha <= 0)
 
 //Checar se a tela esta totalmente escurA , ou seja , o alpha é 1 ou maior 
 //mudar de room se eu ainda naõ troquei de room 
-if(alpha >= 1 && troca_room ==false)
+if(alpha >= 1 && troca_room == false)
 {
-	room_goto(rm_inicio);
+	room_goto(destino);
 }
