@@ -303,8 +303,14 @@
 31 - Criar a tela inicial do Jogo 
 	31.1 - Criar a room da tela inicial do jogo 
 	31.2 - Criar os Botões
+		31.2.1 - Fazer com que a cor do botão mude com o mouse por cima -
+		31.2.2 - Fazer a cor do mouse voltar ao normal, quanso o mouse sair de cima dele 
+		31.2.3 - Desenhar o texto dos botões
+			31.2.3.1 - Desenhar a fonte centralizada (Não usei o draw image) - OK
+			31.2.3.2 - Permitir que o texto seja centralizado(Não usei o draw image) - OK 
 	
 32 - Criar transições
+	32.1 - Criando o obj de transição
 
 
 33 - Criar a tela pntuação
