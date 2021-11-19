@@ -3,7 +3,8 @@
 
 
 //Checanbdo se o player NÂo existe E se eu ainda NÂO criei a minha sequência 
-if (!instance_exists(obj_player) && gameover_seq == noone)
+//E o level não foi completo
+if (!instance_exists(obj_player) && !gameover_seq && !level_completo)
 {
 	//Criando minha sequencia 
 	//Craindo apenas UMA sequencia

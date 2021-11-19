@@ -20,6 +20,8 @@ gameover_seq = noone;
 
 criar_boss = true;
 
+level_completo = false;
+
 //Criando um método para criar pontos 
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos)

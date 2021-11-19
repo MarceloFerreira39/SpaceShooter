@@ -292,3 +292,10 @@
 	29.3 - garantir que o boss seja criado uma unica vez - Ok
 	
 30 - Criando a animação de termino de level do player
+	30.1 - Criar a animação - OK
+	30.2 - Quando o boss morrer e a animação de morte finalizar , ativar a animação de final
+		30.2.1 - Criar a função que executa-se a função do player - OK
+		30.2.2 - Fazendo o control executar a função e terminar a animação - OK
+	30.3 - Destruir o player e garantir que o OBJ_control não criar o game over
+		30.3.1 - Impedidno que o player execute o destroi event dele 
+		30.3.2 - Criando uma variavel de controle para o control , para impedir o game over

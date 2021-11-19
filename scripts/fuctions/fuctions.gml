@@ -27,3 +27,23 @@ function destroi_seq()
 	//Criando o Boss
 	instance_create_layer(960, 256, "Boss", obj_boss);
 }
+
+
+//Criando a sequencia do player 
+function cria_seq()
+{
+	if(instance_exists(obj_player))
+	{
+		layer_sequence_create("Sequences",obj_player.x, obj_player.y, sq_level_end );
+		
+		//Destruindo o player
+		instance_destroy(obj_player, false);
+		
+		//Impedindo que o control crie o game over
+		//Avisando que o level foi completo 
+		if(instance_exists(obj_control))
+		{
+			obj_control.level_completo = true;
+		}
+	}
+}
