@@ -2,6 +2,7 @@
 
 //ramdomizando o jogo 
 randomize();
+
 //Iniciando o alarme em 1 segundo
 alarm[0] = room_speed;
 
@@ -80,4 +81,8 @@ cria_inimigo = function()
 
 
 
-
+/*if((sq_level_end || gameover_seq) && pontos > global.max_pontos)
+{
+	global.max_pontos = pontos
+}
+*/

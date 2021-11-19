@@ -56,7 +56,7 @@
 		9.3.5 - Alterar como a GPU processa a mistura de imagens - OK
 		9.3.7 - Criar a variavel cores - OK
 		9.3.7 - Usar o lerp para diminuir o tamanho -OK
-	9.4 - deixando as exploso~es mais bonitas - 
+	9.4 - deixando as explosões mais bonitas - OK 
 		9.4.1 - Criar o Draw evente - OK
 		9.4.2 - Se Desenhar - OK
 		9.4.3 - ME desenhar um pouco maior - OK
@@ -76,7 +76,7 @@
 			11.4.1.2 - Checando se esta na Esquerda - OK
 	11.5 - Fazer o inimigo 2 mudar de direção se ele já passou de um terço da tela - ok
 	11.6 - So mudar de direção UMA VEZ - OK
-	11.7 - Fazendo o inimigo criar o proprio tiro -
+	11.7 - Fazendo o inimigo criar o proprio tiro - OK
 		11.7.1 - Criar a função atirando do inimigo 02 - OK
 		
 	
@@ -96,10 +96,10 @@
 	13.3 - Criando ONDAS de inimigos - OK
 	13.4 - Criar as ondas APENAS se a última onda já foi destruida - OK
 	13.5 - Criar a quantidade de inimigos baseado no level - OK
-	13.6 - Impedindo que inimigos sejam criados em cima do outro -
+	13.6 - Impedindo que inimigos sejam criados em cima do outro - OK
 
 14 - Criando objeto controlador do jogo 
-	14.1 -Ganhando pontos ao destruir oinimigo -
+	14.1 -Ganhando pontos ao destruir oinimigo - OK
 	
 15 - Sistema de pontos
 	15.1 - Iniciando a variavel pontos - OK
@@ -185,9 +185,9 @@
 	23.6 - Fazendo o player perder vida ao trombar com Inimigo - OK
 	23.7 - Criando uma tela de game over quando o jogador perder - Ok
 		23.7.1 - Criando a sequencia de game over - Ok
-		23.7.2 - Instanciando a sequencia de gameover quando ele perde - 
-			23.7.2.1 - Checando se o player existe no obj_controler
-			23.7.2.2 - Se o player NÂO existir crio a minha instancia
+		23.7.2 - Instanciando a sequencia de gameover quando ele perde - OK
+			23.7.2.1 - Checando se o player existe no obj_controler - OK
+			23.7.2.2 - Se o player NÂO existir crio a minha instancia - OK
 
 
 23 - Ajustes Gerais Parte 2
@@ -301,25 +301,35 @@
 		30.3.2 - Criando uma variavel de controle para o control , para impedir o game over - OK
 		
 31 - Criar a tela inicial do Jogo 
-	31.1 - Criar a room da tela inicial do jogo 
-	31.2 - Criar os Botões
-		31.2.1 - Fazer com que a cor do botão mude com o mouse por cima -
-		31.2.2 - Fazer a cor do mouse voltar ao normal, quanso o mouse sair de cima dele 
-		31.2.3 - Desenhar o texto dos botões
+	31.1 - Criar a room da tela inicial do jogo - OK
+	31.2 - Criar os Botões - OK
+		31.2.1 - Fazer com que a cor do botão mude com o mouse por cima - OK
+		31.2.2 - Fazer a cor do mouse voltar ao normal, quanso o mouse sair de cima dele - OK
+		31.2.3 - Desenhar o texto dos botões - OK
 			31.2.3.1 - Desenhar a fonte centralizada (Não usei o draw image) - OK
 			31.2.3.2 - Permitir que o texto seja centralizado(Não usei o draw image) - OK 
-	31.3 - Ao clicar no botão instanciar o objeto trnasição ao destino desejado 
+	31.3 - Ao clicar no botão instanciar o objeto trnasição ao destino desejado - OK
+	31.4 - Fazendo que ao morrer e apertar enter o jogador volte para tela inicial - OK
 	
 32 - Criar transições
 	32.1 - Criando o obj de transição - OK
 	32.2 - Fazendo ele escurecer a tela 
-		32.2.1 - Fazendo ele desenhar primeiro transparente e depois ficar escuro - 
+		32.2.1 - Fazendo ele desenhar primeiro transparente e depois ficar escuro - OK
 		32.2.2 - Se o alpha for menor do que 1 o alpha vai subir - OK
 	32.3 - Fazendo ele mudar de room depois da tela ficar toda escura - OK
-	32.4 - Fazendo a tela ficar clara
+	32.4 - Fazendo a tela ficar clara - OK
 		32.4.1 - Deixando a tela mais clara 
 		32.4.2 - Avisando que troquei de room
 	32.5 - Se eu troquei de room e o alpha form menor que zero , mata o alpha - ok
 	32.6 - Personalizando o destino
 
 33 - Criar a tela pntuação
+	33.1 - Criando o sistema de pontuação que guarda a pontuação - OK 
+		33.1.1 - Criando uma room  para inicializar as variaveis globais - OK
+		33.1.2 - Garantindo que o viewporte da room main  esta correto. - OK
+		33.1.3 - inicializando as variaveis globais nela. - OK
+		33.1.4 - Indo para a proxima room - OK
+	33.2 - Debug para ver as variáveis globais - OK
+	33.3 - Salvando os pontos na variavel global  de max pontos Se os pontos forem maiores que max pontos.
+		33.3.1 - Quando o jogo terminar (a partida), checar se os pontos são maiores que maxpontos e Se sim 
+		passar os pontos para a variavel local

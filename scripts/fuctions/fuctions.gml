@@ -39,11 +39,19 @@ function cria_seq()
 		//Destruindo o player
 		instance_destroy(obj_player, false);
 		
+		
+		
 		//Impedindo que o control crie o game over
 		//Avisando que o level foi completo 
 		if(instance_exists(obj_control))
 		{
 			obj_control.level_completo = true;
+			
+			
 		}
+		
 	}
+	
 }
+
+

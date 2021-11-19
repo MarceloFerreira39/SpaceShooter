@@ -16,7 +16,7 @@ if(!instance_exists(obj_inimigo01))
 			cria_inimigo();
 		}
 	}
-	else 
+	else if(instance_exists(obj_player))
 	{
 		//Cria a animação de entrada no boss 
 		//garantir que so cria uma vez
