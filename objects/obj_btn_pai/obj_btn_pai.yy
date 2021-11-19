@@ -33,7 +33,7 @@
     "path": "folders/Objects/Etc.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_botao_pai",
+  "name": "obj_btn_pai",
   "tags": [],
   "resourceType": "GMObject",
 }

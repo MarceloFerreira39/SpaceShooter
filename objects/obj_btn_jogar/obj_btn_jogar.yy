@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_botao_pai",
-    "path": "objects/obj_botao_pai/obj_botao_pai.yy",
+    "name": "obj_btn_pai",
+    "path": "objects/obj_btn_pai/obj_btn_pai.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Etc.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_jogar",
+  "name": "obj_btn_jogar",
   "tags": [],
   "resourceType": "GMObject",
 }

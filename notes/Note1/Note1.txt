@@ -310,7 +310,15 @@
 			31.2.3.2 - Permitir que o texto seja centralizado(Não usei o draw image) - OK 
 	
 32 - Criar transições
-	32.1 - Criando o obj de transição
-
+	32.1 - Criando o obj de transição - OK
+	32.2 - Fazendo ele escurecer a tela 
+		32.2.1 - Fazendo ele desenhar primeiro transparente e depois ficar escuro - 
+		32.2.2 - Se o alpha for menor do que 1 o alpha vai subir - OK
+	32.3 - Fazendo ele mudar de room depois da tela ficar toda escura - OK
+	32.4 - Fazendo a tela ficar clara
+		32.4.1 - Deixando a tela mais clara 
+		32.4.2 - Avisando que troquei de room
+	32.5 - Se eu troquei de room e o alpha form menor que zero , mata o alpha - ok
+	32.6 - Personalizando o destino
 
 33 - Criar a tela pntuação
