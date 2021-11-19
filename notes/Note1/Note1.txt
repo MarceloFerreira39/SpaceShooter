@@ -296,6 +296,15 @@
 	30.2 - Quando o boss morrer e a animação de morte finalizar , ativar a animação de final
 		30.2.1 - Criar a função que executa-se a função do player - OK
 		30.2.2 - Fazendo o control executar a função e terminar a animação - OK
-	30.3 - Destruir o player e garantir que o OBJ_control não criar o game over
-		30.3.1 - Impedidno que o player execute o destroi event dele 
-		30.3.2 - Criando uma variavel de controle para o control , para impedir o game over
+	30.3 - Destruir o player e garantir que o OBJ_control não criar o game over - OK
+		30.3.1 - Impedidno que o player execute o destroi event dele - OK
+		30.3.2 - Criando uma variavel de controle para o control , para impedir o game over - OK
+		
+31 - Criar a tela inicial do Jogo 
+	31.1 - Criar a room da tela inicial do jogo 
+	31.2 - Criar os Botões
+	
+32 - Criar transições
+
+
+33 - Criar a tela pntuação

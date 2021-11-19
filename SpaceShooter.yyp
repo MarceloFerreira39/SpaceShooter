@@ -15,6 +15,7 @@
     {"id":{"name":"obj_inimigo01","path":"objects/obj_inimigo01/obj_inimigo01.yy",},"order":0,},
     {"id":{"name":"obj_power_up","path":"objects/obj_power_up/obj_power_up.yy",},"order":2,},
     {"id":{"name":"obj_tiro_minion","path":"objects/obj_tiro_minion/obj_tiro_minion.yy",},"order":4,},
+    {"id":{"name":"rm_inicial","path":"rooms/rm_inicial/rm_inicial.yy",},"order":1,},
     {"id":{"name":"spr_inimigo_explosao","path":"sprites/spr_inimigo_explosao/spr_inimigo_explosao.yy",},"order":1,},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"order":0,},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
@@ -60,6 +61,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_inicial","path":"rooms/rm_inicial/rm_inicial.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
