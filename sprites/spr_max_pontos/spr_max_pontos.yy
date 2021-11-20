@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 8,
-  "bbox_right": 236,
+  "bbox_right": 622,
   "bbox_top": 8,
-  "bbox_bottom": 99,
+  "bbox_bottom": 98,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 245,
-  "height": 108,
+  "width": 631,
+  "height": 107,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8ff05c3b-0aea-4699-97c5-d950b6f7d5b5","path":"sprites/spr_jogar/spr_jogar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8ff05c3b-0aea-4699-97c5-d950b6f7d5b5","path":"sprites/spr_jogar/spr_jogar.yy",},"LayerId":{"name":"e14bedff-60b2-4e3b-b7e2-e969929f55b2","path":"sprites/spr_jogar/spr_jogar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_jogar","path":"sprites/spr_jogar/spr_jogar.yy",},"resourceVersion":"1.0","name":"8ff05c3b-0aea-4699-97c5-d950b6f7d5b5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fdd0ce4c-0983-4743-ab98-9a1638252694","path":"sprites/spr_max_pontos/spr_max_pontos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fdd0ce4c-0983-4743-ab98-9a1638252694","path":"sprites/spr_max_pontos/spr_max_pontos.yy",},"LayerId":{"name":"fc9e2d4b-1cca-42fe-947b-187260228237","path":"sprites/spr_max_pontos/spr_max_pontos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_max_pontos","path":"sprites/spr_max_pontos/spr_max_pontos.yy",},"resourceVersion":"1.0","name":"fdd0ce4c-0983-4743-ab98-9a1638252694","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_jogar","path":"sprites/spr_jogar/spr_jogar.yy",},
+    "spriteId": {"name":"spr_max_pontos","path":"sprites/spr_max_pontos/spr_max_pontos.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"12c0cbc7-805b-4019-a192-5c53a95a6198","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ff05c3b-0aea-4699-97c5-d950b6f7d5b5","path":"sprites/spr_jogar/spr_jogar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"deb87b92-1260-4f74-acc1-6c9abf3569c5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fdd0ce4c-0983-4743-ab98-9a1638252694","path":"sprites/spr_max_pontos/spr_max_pontos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 122,
-    "yorigin": 54,
+    "xorigin": 315,
+    "yorigin": 53,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_jogar","path":"sprites/spr_jogar/spr_jogar.yy",},
+    "parent": {"name":"spr_max_pontos","path":"sprites/spr_max_pontos/spr_max_pontos.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_jogar",
+    "name": "spr_max_pontos",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e14bedff-60b2-4e3b-b7e2-e969929f55b2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fc9e2d4b-1cca-42fe-947b-187260228237","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_jogar",
+  "name": "spr_max_pontos",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -14,14 +14,18 @@ pontos = 0;
 level = 1;
 
 //Quantos pontos eu preciso para o proximo level
-proximo_level = 100;
+proximo_level = 10;
 
 //Variavel de controle para o game over
 gameover_seq = noone;
 
+
+//Variavel de controle para criar o boss (flag)
 criar_boss = true;
 
 level_completo = false;
+
+
 
 //Criando um método para criar pontos 
 ///@method ganha_pontos(pontos)
@@ -29,6 +33,8 @@ ganha_pontos = function(_pontos)
 {
 	pontos += _pontos * level;
 	
+	
+	//ganhando level se os pontos forem maior que o proximo level
 	if(pontos >= proximo_level)
 	{
 		level++;
@@ -81,8 +87,4 @@ cria_inimigo = function()
 
 
 
-/*if((sq_level_end || gameover_seq) && pontos > global.max_pontos)
-{
-	global.max_pontos = pontos
-}
-*/
+

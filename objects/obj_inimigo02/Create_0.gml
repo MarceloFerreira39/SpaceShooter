@@ -6,8 +6,10 @@ event_inherited();
 
 chance = 30;
 
-
+//valor de pontos que vale o inimigo
 pontos = 20;
+
+
 //Criando a variavel de controle , para saber se pode mover para os lados
 posso_mover_para_lado = true;
 

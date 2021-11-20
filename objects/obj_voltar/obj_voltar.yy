@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_jogar",
-    "path": "sprites/spr_jogar/spr_jogar.yy",
+    "name": "spr_voltar",
+    "path": "sprites/spr_voltar/spr_voltar.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_btn_jogar",
+  "name": "obj_voltar",
   "tags": [],
   "resourceType": "GMObject",
 }

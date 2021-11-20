@@ -7,6 +7,8 @@ vspeed = 3;
 //Chance de dropar o item é 20%
 chance = 20;
 
+
+//Valor de pontos do inimigo
 pontos = 10; 
 
 //Iniciando o alarm no tempo de 1 e 3 segundos

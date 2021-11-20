@@ -12,7 +12,7 @@ function ganhando_pontos(_pontos)
 {
 	if(instance_exists(obj_control))
 	{
-		obj_control.ganha_pontos(100);
+		obj_control.ganha_pontos(_pontos);
 	}
 }
 
@@ -47,10 +47,16 @@ function cria_seq()
 		{
 			obj_control.level_completo = true;
 			
-			
 		}
 		
 	}
+	
+}
+
+function cria_transicao()
+{
+	var _transicao = instance_create_layer(0, 0, "Player", obj_transicao);
+	_transicao.destino = rm_inicio;
 	
 }
 
