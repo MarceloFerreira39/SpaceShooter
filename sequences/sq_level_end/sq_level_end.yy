@@ -14,7 +14,7 @@
   },
   "moments": {
     "Keyframes": [
-      {"id":"1817b84b-7b7d-4ef1-bc99-6e18ba620acc","Key":89.9999,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+      {"id":"f060b5cb-0837-4281-841e-ee3cedcc84dd","Key":89.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
               "cria_transicao",
             ],"resourceVersion":"1.0","resourceType":"MomentsEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MomentsEventKeyframe>",},
     ],

@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_brilho_up","path":"sprites/spr_brilho_up/spr_brilho_up.yy",},"order":8,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":0,},
+    {"id":{"name":"fnt_gui_pontos","path":"fonts/fnt_gui_pontos/fnt_gui_pontos.yy",},"order":1,},
     {"id":{"name":"spr_bkg","path":"sprites/spr_bkg/spr_bkg.yy",},"order":2,},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":0,},
     {"id":{"name":"spr_brilho_inimigo1","path":"sprites/spr_brilho_inimigo1/spr_brilho_inimigo1.yy",},"order":6,},

@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 
-if(!instance_exists(obj_transicao))
-{
+
 	//Definindo a fonte 
 	draw_set_font(fnt_pontos);
-	draw_text(610, 400, string(global.total_mortes));
+	draw_text(640, 400, string(global.total_mortes));
+	//centralizando texto
+	draw_set_halign(fa_center);
 	//Resetando a fonte
 	draw_set_font(-1)
-}

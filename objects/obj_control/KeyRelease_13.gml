@@ -7,7 +7,7 @@ if(gameover_seq)
 {
 	//criando o objeto transição co o destino da room inicio
 	var _transicao = instance_create_layer(0, 0, "player", obj_transicao);
-	_transicao.destino = rm_inicio;
+	_transicao.destino = rm_pontos;
 	
 	
 	

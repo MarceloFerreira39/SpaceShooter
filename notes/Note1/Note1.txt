@@ -341,4 +341,5 @@
 	33.7 - Garantir que o objeto pontos vai atualizar os pontos - OK
 	33.8 - Exibindo os pontos e outras informações na tela de pontos - OK
 	33.9 - Criar um botão de voltar da room pontos - OK
-	33.10 - Criando uma fonte para a tela de fontes
+	33.10 - Criando uma fonte para a tela de fontes - OK
+	33.11 - Fazendo na hora de exibição ele começar com zero pontos e crescer até a maior pontuação
