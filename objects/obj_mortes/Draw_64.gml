@@ -1,7 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if(!instance_exists(obj_transicao))
 {
-	draw_text(630, 400, string(global.total_mortes));
+	//Definindo a fonte 
+	draw_set_font(fnt_pontos);
+	draw_text(610, 400, string(global.total_mortes));
+	//Resetando a fonte
+	draw_set_font(-1)
 }

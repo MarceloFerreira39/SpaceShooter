@@ -31,7 +31,7 @@
     {"id":{"name":"obj_player_tiro01","path":"objects/obj_player_tiro01/obj_player_tiro01.yy",},"order":3,},
     {"id":{"name":"rm_pontos","path":"rooms/rm_pontos/rm_pontos.yy",},"order":3,},
     {"id":{"name":"sq_level_end","path":"sequences/sq_level_end/sq_level_end.yy",},"order":4,},
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
+    {"id":{"name":"fnt_pontos","path":"fonts/fnt_pontos/fnt_pontos.yy",},"order":0,},
     {"id":{"name":"spr_boss_escudo","path":"sprites/spr_boss_escudo/spr_boss_escudo.yy",},"order":1,},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},"order":4,},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},"order":10,},

@@ -4,7 +4,12 @@
 
 
 //Desenhar a maior pontuação Se o objeto transição NÂO existe.
+
 if(!instance_exists(obj_transicao))
 {
-	draw_text(630, 140, string(global.max_pontos));
+	//Definindo a fonte 
+	draw_set_font(fnt_pontos);
+	draw_text(610, 140, string(global.max_pontos));
+	//Resetando a fonte
+	draw_set_font(-1)
 }
