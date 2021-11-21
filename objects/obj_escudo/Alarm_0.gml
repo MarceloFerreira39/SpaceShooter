@@ -6,7 +6,7 @@ if(image_index <= 0)
 	
 	instance_destroy();
 	//Som de escudo sumindo 
-	audio_play_sound(sfx_shieldDown, 2, 0);
+	audio_play_sound(sfx_shieldDown, 1, 0);
 }
 else if(image_index > 0)
 {

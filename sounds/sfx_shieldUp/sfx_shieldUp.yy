@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.79,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_shieldUp.ogg",
-  "duration": 0.293152,
+  "soundFile": "sfx_shieldUp.wav",
+  "duration": 1.341542,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

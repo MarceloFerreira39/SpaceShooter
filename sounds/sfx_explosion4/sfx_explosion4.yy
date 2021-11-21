@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.52,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_explosion4.wav",
-  "duration": 1.794331,
+  "duration": 1.741451,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

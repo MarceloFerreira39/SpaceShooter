@@ -15,8 +15,8 @@ Estado especial 1 = Ficar invulneravel enquanto cria dois minions , para recuper
 audio_play_sound(snd_boss_fight1, 0, 1);
 
 //Iniciando sistema de vida
-vida_max = 0;
-vida_atual = 1;
+vida_max = 1500;
+vida_atual = vida_max;
 
 
 //Função para desenhar a barra de vida , com 30 pixel de altura
@@ -197,7 +197,7 @@ troca_estado = function()
 		}
 		else
 		{
-			estado_atual = choose("estado 4", "estado 3", "estado 2" );
+			estado_atual = choose("estado 4","estado 3", "estado 4");
 		}
 	
 		//Fazendo o espera estado ter um valor alto de novo(6 segundo neste caso)

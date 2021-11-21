@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_Powerup19.wav",
-  "duration": 0.455896,
+  "duration": 0.616349,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

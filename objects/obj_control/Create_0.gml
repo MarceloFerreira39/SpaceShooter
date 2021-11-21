@@ -2,7 +2,7 @@
 
 randomize();
 
-audio_stop_sound(snd_inicio);
+audio_stop_sound(snd_inicio2);
 audio_stop_sound(snd_pontos);
 
 //Iniciando o alarme em 1 segundo

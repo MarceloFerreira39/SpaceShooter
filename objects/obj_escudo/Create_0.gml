@@ -13,4 +13,4 @@ image_yscale = image_xscale;
 image_alpha = .7;
 
 //Som de ativar escudo
-audio_play_sound(sfx_shieldUp, 2, 0);
+audio_play_sound(sfx_shieldUp, 1, 0);

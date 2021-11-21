@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-audio_play_sound(sfx_Powerup19, 1, 0);
+
 
 //Criando uma chance entre 1 e 100 para decidir qual UP
 chance = random(100);

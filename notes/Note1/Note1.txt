@@ -363,4 +363,7 @@
 	35.11 - Tocar a musica do Boss quando a boss figth iniciar - OK
 		35.11.1 - Parando de tocar a música do level , quando a boss fight começar - OK
 		35.11.2 - Tocando a boss Fight - ok
+		
+36 - Polindo o Jogo 
+	36.1 - Tirando todos os debugs do jogo - 
 	

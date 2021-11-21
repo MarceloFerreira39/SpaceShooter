@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_zap.ogg",
-  "duration": 0.911451,
+  "soundFile": "sfx_zap.wav",
+  "duration": 1.855782,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

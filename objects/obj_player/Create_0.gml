@@ -167,7 +167,7 @@ perde_vida = function()
 		{
 			vida--;
 		
-			screenshake(3);
+			screenshake(5);
 		}
 		else //Eu morri ao levar o tiro
 		{
