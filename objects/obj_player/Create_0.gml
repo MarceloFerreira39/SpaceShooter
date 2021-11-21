@@ -66,6 +66,11 @@ atirando = function()
 			//Ativando o Alrme
 			alarm[0] =espera_tiro;
 	
+	
+			//criando o som do tiro 
+			audio_play_sound(sfx_laser4, 1, false);
+			
+			
 			//Criar o tiro na hora que aperta espaço
 			//e depois so atirar novamente em um segundo
 			//Meu codigo de criar o tiro
@@ -179,11 +184,13 @@ cria_escudo = function()
 	
 	var shield = keyboard_check_pressed(vk_lshift)
 	
+	
 	//Criando o escudo Se não tiver outro escudo ativado
 	if(shield  && escudos > 0)
 	{
 		if(!instance_exists(obj_escudo) || obj_escudo.image_index == noone )
 		{
+			
 			var escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
 	
 			//Eu sou o seu alvo

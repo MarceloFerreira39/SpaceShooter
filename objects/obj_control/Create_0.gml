@@ -1,10 +1,13 @@
 /// @description Iniciando 
 
-//ramdomizando o jogo 
 randomize();
+
+audio_stop_sound(snd_inicio);
+audio_stop_sound(snd_pontos);
 
 //Iniciando o alarme em 1 segundo
 alarm[0] = room_speed;
+
 
 
 //Iniciando o sistem de pontos

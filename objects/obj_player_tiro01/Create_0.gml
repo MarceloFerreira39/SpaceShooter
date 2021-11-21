@@ -12,4 +12,3 @@ brilho = spr_brilho_tiro2;
 cores = c_aqua;
 
 
-

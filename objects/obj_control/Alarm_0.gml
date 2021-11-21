@@ -26,7 +26,11 @@ if(!instance_exists(obj_inimigo01))
 			
 			//avisar que não posso mais criar o boss
 			criar_boss = false;
-		}
+			
+			//Parando de tocar a música
+			audio_stop_all();
+		}	
+		
 	}
 
 	

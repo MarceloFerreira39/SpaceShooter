@@ -342,4 +342,25 @@
 	33.8 - Exibindo os pontos e outras informações na tela de pontos - OK
 	33.9 - Criar um botão de voltar da room pontos - OK
 	33.10 - Criando uma fonte para a tela de fontes - OK
-	33.11 - Fazendo na hora de exibição ele começar com zero pontos e crescer até a maior pontuação
+	33.11 - Fazendo na hora de exibição ele começar com zero pontos e crescer até a maior pontuação - OK
+	
+34 - ajustes Gerais 3
+	34.1 - Garantindo que o jogo é aleatório. - OK
+	34.2 - Ajustando o nome do Jogo - OK
+	34.3 - Ajustando as musicas das Rooms - OK
+	
+35 - Criando o sons do Jogo
+	35.1 - Importando os sons do jogo - Ok
+	35.2 - Criando o som de explosão quando o objeto explosão for criado - OK
+	35.3 - Criar o som do tiro sempre qie o player atirar - Ok
+	35.4 - criando o som do tiro sempre que o inimigo atirar - OK
+	35.5 - Criando o som de tiro esperando o boss atirar - OK
+	35.6 - Criando o som do escudo do player sendo ativado - OK 
+	35.7 - Criando o som do escudo player sumindo - OK
+	35.8 - Criando o som Lose , quando aparecer a tela game over - OK
+	35.9 - Colocando o two tone quando o tiro do inimigo colidir com o escudo do player - OK
+	35.10 - Tocando a musica do Jogo quando o level iniciar - OK
+	35.11 - Tocar a musica do Boss quando a boss figth iniciar - OK
+		35.11.1 - Parando de tocar a música do level , quando a boss fight começar - OK
+		35.11.2 - Tocando a boss Fight - ok
+	

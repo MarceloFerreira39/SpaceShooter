@@ -28,7 +28,10 @@ atirando = function()
 {
 	if(y >= 0)
 	{
+		
 		instance_create_layer(x -3, y + 20, "Tiros", obj_tiro1_inimigo);
+		//Som de tiro
+		audio_play_sound(sfx_laser1, 3, 0);
 	}
 
 }

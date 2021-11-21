@@ -1,6 +1,7 @@
 //Código que roda sempre que a room é iniciada
 //Vou iniciar as mainas variáveis globais
-
+//ramdomizando o jogo 
+randomize();
 //Guardar pontuação mais alta 
 global.max_pontos = 0;
 //Quantidade de vezes que o player morreu

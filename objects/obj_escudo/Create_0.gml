@@ -11,3 +11,6 @@ image_yscale = image_xscale;
 
 //Deixando o escudo meio transparente
 image_alpha = .7;
+
+//Som de ativar escudo
+audio_play_sound(sfx_shieldUp, 2, 0);

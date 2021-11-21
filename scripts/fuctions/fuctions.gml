@@ -60,4 +60,3 @@ function cria_transicao()
 	
 }
 
-

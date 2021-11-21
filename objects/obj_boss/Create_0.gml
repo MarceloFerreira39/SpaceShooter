@@ -12,7 +12,7 @@ Estado especial 1 = Ficar invulneravel enquanto cria dois minions , para recuper
 
 
 //Inicio da battle boss
-
+audio_play_sound(snd_boss_fight1, 0, 1);
 
 //Iniciando sistema de vida
 vida_max = 0;
@@ -47,6 +47,8 @@ criar_minions = true;
 tiro_02 = function()//Função tiro numero 2
 {
 	instance_create_layer(x,y + 80,"Tiros", obj_tiro2_inimigo);
+	//Som de tiro
+	audio_play_sound(sfx_laser1, 1, 0);
 }
 
 
@@ -64,6 +66,8 @@ tiro_01 = function(_direita)//Função de tiro 1
 		}
 		
 		instance_create_layer(x + _posx, y + 10, "Tiros", obj_tiro1_inimigo);
+		//Som de tiro
+		audio_play_sound(sfx_laser1, 1, 0);
 }
 
 
